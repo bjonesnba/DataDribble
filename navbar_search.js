@@ -230,11 +230,13 @@ function performSearch(query) {
 }
 
 function navigateToPlayer(playerId) {
-  window.location.href = `player_dashboard_2026.html?season=2026&player=${encodeURIComponent(playerId)}`;
+  // Navigate to the router file which will redirect to the actual player dashboard
+  window.location.href = `player_dashboard.html?season=2026&player=${encodeURIComponent(playerId)}`;
 }
 
 function navigateToTeam(teamName) {
-  window.location.href = `team_dashboard_2026.html?season=2026&team=${encodeURIComponent(teamName)}`;
+  // Navigate to the router file which will redirect to the actual team dashboard
+  window.location.href = `team_dashboard.html?season=2026&team=${encodeURIComponent(teamName)}`;
 }
 
 // Helper function to escape HTML
