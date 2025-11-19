@@ -21,7 +21,7 @@
     {
       "id": "AJ Hammons - 1627773",
       "name": "AJ Hammons",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "Aaron Henry - 1630565",
       "name": "Aaron Henry",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "Aaron Jackson - 1628935",
       "name": "Aaron Jackson",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "Ace Bailey - 1642846",
       "name": "Ace Bailey",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -111,7 +111,7 @@
     {
       "id": "Ade Murkey - 1630278",
       "name": "Ade Murkey",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -129,7 +129,7 @@
     {
       "id": "Adou Thiero - 1642876",
       "name": "Adou Thiero",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "Ahmad Caver - 1629958",
       "name": "Ahmad Caver",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -171,7 +171,7 @@
     {
       "id": "Alan Anderson - 101187",
       "name": "Alan Anderson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -189,13 +189,13 @@
     {
       "id": "Alec Peters - 1628409",
       "name": "Alec Peters",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Aleem Ford - 1630758",
       "name": "Aleem Ford",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -225,13 +225,13 @@
     {
       "id": "Alex Ducas - 1642505",
       "name": "Alex Ducas",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
       "id": "Alex Fudge - 1641788",
       "name": "Alex Fudge",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -249,7 +249,7 @@
     {
       "id": "Alex Reese - 1642024",
       "name": "Alex Reese",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -261,7 +261,7 @@
     {
       "id": "Alexis Ajinca - 201582",
       "name": "Alexis Ajinca",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -297,7 +297,7 @@
     {
       "id": "Alonzo Gee - 202087",
       "name": "Alonzo Gee",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -309,13 +309,13 @@
     {
       "id": "Amari Bailey - 1641735",
       "name": "Amari Bailey",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
       "id": "Amari Williams - 1642873",
       "name": "Amari Williams",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -327,7 +327,7 @@
     {
       "id": "Amida Brimah - 1628578",
       "name": "Amida Brimah",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -393,7 +393,7 @@
     {
       "id": "Andrew Funk - 1641847",
       "name": "Andrew Funk",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -411,13 +411,13 @@
     {
       "id": "Andrew Nicholson - 203094",
       "name": "Andrew Nicholson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Andrew White III - 1628510",
       "name": "Andrew White III",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -435,7 +435,7 @@
     {
       "id": "Angel Delgado - 1629116",
       "name": "Angel Delgado",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -447,7 +447,7 @@
     {
       "id": "Anthony Bennett - 203461",
       "name": "Anthony Bennett",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -489,7 +489,7 @@
     {
       "id": "Anthony Morrow - 201627",
       "name": "Anthony Morrow",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -501,7 +501,7 @@
     {
       "id": "Anton Watson - 1641817",
       "name": "Anton Watson",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -531,7 +531,7 @@
     {
       "id": "Archie Goodwin - 203462",
       "name": "Archie Goodwin",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -543,13 +543,13 @@
     {
       "id": "Arinze Onuaku - 202620",
       "name": "Arinze Onuaku",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Armel Traoré - 1642422",
       "name": "Armel Traoré",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -561,7 +561,7 @@
     {
       "id": "Arnoldas Kulboka - 1629083",
       "name": "Arnoldas Kulboka",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -579,7 +579,7 @@
     {
       "id": "Asa Newell - 1642854",
       "name": "Asa Newell",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -645,7 +645,7 @@
     {
       "id": "Ben Bentil - 1627791",
       "name": "Ben Bentil",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -657,13 +657,13 @@
     {
       "id": "Ben Moore - 1628500",
       "name": "Ben Moore",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Ben Saraf - 1642879",
       "name": "Ben Saraf",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -687,7 +687,7 @@
     {
       "id": "Beno Udrih - 2757",
       "name": "Beno Udrih",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -699,7 +699,7 @@
     {
       "id": "Billy Garrett - 1628656",
       "name": "Billy Garrett",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -771,13 +771,13 @@
     {
       "id": "Bonzie Colson - 1629045",
       "name": "Bonzie Colson",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
       "id": "Boris Diaw - 2564",
       "name": "Boris Diaw",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -813,7 +813,7 @@
     {
       "id": "Brandon Bass - 101138",
       "name": "Brandon Bass",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -861,19 +861,19 @@
     {
       "id": "Brandon Paul - 203464",
       "name": "Brandon Paul",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Brandon Rush - 201575",
       "name": "Brandon Rush",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Brandon Sampson - 1629102",
       "name": "Brandon Sampson",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -897,7 +897,7 @@
     {
       "id": "Brian Roberts - 203148",
       "name": "Brian Roberts",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -939,7 +939,7 @@
     {
       "id": "Brooks Barnhizer - 1642964",
       "name": "Brooks Barnhizer",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -993,13 +993,13 @@
     {
       "id": "C.J. Watson - 201228",
       "name": "C.J. Watson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "C.J. Wilcox - 203912",
       "name": "C.J. Wilcox",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -1041,7 +1041,7 @@
     {
       "id": "Caleb Love - 1631126",
       "name": "Caleb Love",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1101,7 +1101,7 @@
     {
       "id": "Cameron McGriff - 1630787",
       "name": "Cameron McGriff",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -1143,7 +1143,7 @@
     {
       "id": "Carter Bryant - 1642868",
       "name": "Carter Bryant",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1167,7 +1167,7 @@
     {
       "id": "Cat Barber - 1627760",
       "name": "Cat Barber",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -1179,13 +1179,13 @@
     {
       "id": "Cedric Coward - 1642907",
       "name": "Cedric Coward",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Chance Comanche - 1628435",
       "name": "Chance Comanche",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -1215,7 +1215,7 @@
     {
       "id": "Charles Cooke - 1628429",
       "name": "Charles Cooke",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -1233,13 +1233,13 @@
     {
       "id": "Chaundee Brown Jr. - 1630602",
       "name": "Chaundee Brown Jr.",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Chaz Lanier - 1642404",
       "name": "Chaz Lanier",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1257,7 +1257,7 @@
     {
       "id": "Chima Moneke - 1631320",
       "name": "Chima Moneke",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -1275,7 +1275,7 @@
     {
       "id": "Chris Andersen - 2365",
       "name": "Chris Andersen",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -1293,7 +1293,7 @@
     {
       "id": "Chris Clemons - 1629598",
       "name": "Chris Clemons",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -1311,7 +1311,7 @@
     {
       "id": "Chris Mañon - 1643024",
       "name": "Chris Mañon",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1335,7 +1335,7 @@
     {
       "id": "Chris Youngblood - 1642959",
       "name": "Chris Youngblood",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1431,7 +1431,7 @@
     {
       "id": "Collin Murray-Boyles - 1642867",
       "name": "Collin Murray-Boyles",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1443,7 +1443,7 @@
     {
       "id": "Cooper Flagg - 1642843",
       "name": "Cooper Flagg",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1479,7 +1479,7 @@
     {
       "id": "Craig Sword - 1628591",
       "name": "Craig Sword",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -1491,7 +1491,7 @@
     {
       "id": "Cui Yongxi - 1642385",
       "name": "Cui Yongxi",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -1503,7 +1503,7 @@
     {
       "id": "D'Moi Hodge - 1641793",
       "name": "D'Moi Hodge",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -1527,7 +1527,7 @@
     {
       "id": "DJ Stephens - 203474",
       "name": "DJ Stephens",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -1539,7 +1539,7 @@
     {
       "id": "DaRon Holmes II - 1641747",
       "name": "DaRon Holmes II",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1551,13 +1551,13 @@
     {
       "id": "Dahntay Jones - 2563",
       "name": "Dahntay Jones",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Dairis Bertans - 1629541",
       "name": "Dairis Bertans",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -1569,7 +1569,7 @@
     {
       "id": "Dakari Johnson - 1626177",
       "name": "Dakari Johnson",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -1611,13 +1611,13 @@
     {
       "id": "Damien Wilkins - 2863",
       "name": "Damien Wilkins",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Damion Baugh - 1641878",
       "name": "Damion Baugh",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -1629,7 +1629,7 @@
     {
       "id": "Damjan Rudez - 204014",
       "name": "Damjan Rudez",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -1653,7 +1653,7 @@
     {
       "id": "Daniel Ochefu - 1627849",
       "name": "Daniel Ochefu",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -1689,7 +1689,7 @@
     {
       "id": "Danny Wolf - 1642874",
       "name": "Danny Wolf",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -1731,7 +1731,7 @@
     {
       "id": "Darius Days - 1630620",
       "name": "Darius Days",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -1779,19 +1779,19 @@
     {
       "id": "David Johnson - 1630525",
       "name": "David Johnson",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "David Jones Garcia - 1642357",
       "name": "David Jones Garcia",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "David Lee - 101135",
       "name": "David Lee",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -1809,7 +1809,7 @@
     {
       "id": "David Stockton - 204065",
       "name": "David Stockton",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -1899,7 +1899,7 @@
     {
       "id": "DeVaughn Akoon-Purcell - 1629152",
       "name": "DeVaughn Akoon-Purcell",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -1941,7 +1941,7 @@
     {
       "id": "Deng Adel - 1629061",
       "name": "Deng Adel",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -1989,13 +1989,13 @@
     {
       "id": "Derik Queen - 1642852",
       "name": "Derik Queen",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Deron Williams - 101114",
       "name": "Deron Williams",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -2085,7 +2085,7 @@
     {
       "id": "Devon Hall - 1628985",
       "name": "Devon Hall",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -2103,7 +2103,7 @@
     {
       "id": "Dewan Hernandez - 1629608",
       "name": "Dewan Hernandez",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -2115,7 +2115,7 @@
     {
       "id": "Dexter Dennis - 1641926",
       "name": "Dexter Dennis",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -2127,7 +2127,7 @@
     {
       "id": "Diamond Stone - 1627754",
       "name": "Diamond Stone",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -2145,7 +2145,7 @@
     {
       "id": "Dillon Jones - 1641794",
       "name": "Dillon Jones",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -2163,7 +2163,7 @@
     {
       "id": "Dmytro Skapintsev - 1631376",
       "name": "Dmytro Skapintsev",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -2199,7 +2199,7 @@
     {
       "id": "Donovan Williams - 1631495",
       "name": "Donovan Williams",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -2217,7 +2217,7 @@
     {
       "id": "Donte Grantham - 1629055",
       "name": "Donte Grantham",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -2241,7 +2241,7 @@
     {
       "id": "Drake Powell - 1642962",
       "name": "Drake Powell",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -2265,7 +2265,7 @@
     {
       "id": "Drew Timme - 1631166",
       "name": "Drew Timme",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -2307,7 +2307,7 @@
     {
       "id": "Dwight Buycks - 202779",
       "name": "Dwight Buycks",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -2331,13 +2331,13 @@
     {
       "id": "Dylan Cardwell - 1642928",
       "name": "Dylan Cardwell",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Dylan Harper - 1642844",
       "name": "Dylan Harper",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -2391,13 +2391,13 @@
     {
       "id": "Edy Tavares - 204002",
       "name": "Edy Tavares",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Egor Dëmin - 1642856",
       "name": "Egor Dëmin",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -2421,7 +2421,7 @@
     {
       "id": "Elijah Bryant - 1629091",
       "name": "Elijah Bryant",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -2439,13 +2439,13 @@
     {
       "id": "Elijah Millsap - 202407",
       "name": "Elijah Millsap",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Emanuel Miller - 1641801",
       "name": "Emanuel Miller",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -2457,7 +2457,7 @@
     {
       "id": "Emeka Okafor - 2731",
       "name": "Emeka Okafor",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -2481,7 +2481,7 @@
     {
       "id": "Enrique Freeman - 1642402",
       "name": "Enrique Freeman",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -2499,7 +2499,7 @@
     {
       "id": "Eric Mika - 1628450",
       "name": "Eric Mika",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -2517,7 +2517,7 @@
     {
       "id": "Erik McCree - 1628571",
       "name": "Erik McCree",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -2559,13 +2559,13 @@
     {
       "id": "Feron Hunt - 1630624",
       "name": "Feron Hunt",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Filip Petrusev - 1630196",
       "name": "Filip Petrusev",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -2643,7 +2643,7 @@
     {
       "id": "Gabriel Lundberg - 1630994",
       "name": "Gabriel Lundberg",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -2673,7 +2673,7 @@
     {
       "id": "Gary Neal - 202390",
       "name": "Gary Neal",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -2709,7 +2709,7 @@
     {
       "id": "Georgios Kalaitzakis - 1630686",
       "name": "Georgios Kalaitzakis",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -2727,13 +2727,13 @@
     {
       "id": "Gerald Henderson - 201945",
       "name": "Gerald Henderson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Gian Clavell - 1628492",
       "name": "Gian Clavell",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -2781,7 +2781,7 @@
     {
       "id": "Grant Riller - 1630203",
       "name": "Grant Riller",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -2811,13 +2811,13 @@
     {
       "id": "Greg Whittington - 204222",
       "name": "Greg Whittington",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
       "id": "Greivis Vasquez - 202349",
       "name": "Greivis Vasquez",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -2865,7 +2865,7 @@
     {
       "id": "Hassani Gravett - 1629755",
       "name": "Hassani Gravett",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -2877,7 +2877,7 @@
     {
       "id": "Henri Drell - 1630929",
       "name": "Henri Drell",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -2895,25 +2895,25 @@
     {
       "id": "Hollis Thompson - 203138",
       "name": "Hollis Thompson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Hugo González - 1642864",
       "name": "Hugo González",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Hunter Dickinson - 1630621",
       "name": "Hunter Dickinson",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Hunter Sallis - 1642282",
       "name": "Hunter Sallis",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -2937,7 +2937,7 @@
     {
       "id": "Ibou Badji - 1630641",
       "name": "Ibou Badji",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -2973,7 +2973,7 @@
     {
       "id": "Isaac Humphries - 1629353",
       "name": "Isaac Humphries",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -2991,7 +2991,7 @@
     {
       "id": "Isaiah Briscoe - 1628515",
       "name": "Isaiah Briscoe",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -3009,7 +3009,7 @@
     {
       "id": "Isaiah Crawford - 1642384",
       "name": "Isaiah Crawford",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3057,7 +3057,7 @@
     {
       "id": "Isaiah Stevens - 1641815",
       "name": "Isaiah Stevens",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3123,7 +3123,7 @@
     {
       "id": "Izaiah Brockington - 1631167",
       "name": "Izaiah Brockington",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -3189,7 +3189,7 @@
     {
       "id": "JaQuori McLaughlin - 1630605",
       "name": "JaQuori McLaughlin",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -3201,7 +3201,7 @@
     {
       "id": "Jabari Bird - 1628444",
       "name": "Jabari Bird",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3225,13 +3225,13 @@
     {
       "id": "Jack Cooley - 204022",
       "name": "Jack Cooley",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Jack McVeigh - 1629098",
       "name": "Jack McVeigh",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3243,7 +3243,7 @@
     {
       "id": "Jackson Rowe - 1642050",
       "name": "Jackson Rowe",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3261,7 +3261,7 @@
     {
       "id": "Jacob Pullen - 1626643",
       "name": "Jacob Pullen",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3273,7 +3273,7 @@
     {
       "id": "Jacob Wiley - 1628451",
       "name": "Jacob Wiley",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3333,13 +3333,13 @@
     {
       "id": "Jahmyl Telfort - 1643141",
       "name": "Jahmyl Telfort",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Jaime Echenique - 1630693",
       "name": "Jaime Echenique",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -3369,7 +3369,7 @@
     {
       "id": "Jalen Bridges - 1641779",
       "name": "Jalen Bridges",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3381,7 +3381,7 @@
     {
       "id": "Jalen Crutcher - 1630622",
       "name": "Jalen Crutcher",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -3399,7 +3399,7 @@
     {
       "id": "Jalen Harris - 1630223",
       "name": "Jalen Harris",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -3441,7 +3441,7 @@
     {
       "id": "Jalen Slawson - 1641771",
       "name": "Jalen Slawson",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -3501,7 +3501,7 @@
     {
       "id": "Jameel Warney - 1627866",
       "name": "Jameel Warney",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3513,7 +3513,7 @@
     {
       "id": "Jamel Artis - 1628503",
       "name": "Jamel Artis",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3543,7 +3543,7 @@
     {
       "id": "James Jones - 2592",
       "name": "James Jones",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -3561,7 +3561,7 @@
     {
       "id": "James Webb III - 1627821",
       "name": "James Webb III",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3579,13 +3579,13 @@
     {
       "id": "Jamil Wilson - 203966",
       "name": "Jamil Wilson",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Jamir Watkins - 1642364",
       "name": "Jamir Watkins",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -3597,7 +3597,7 @@
     {
       "id": "Jamorko Pickett - 1630691",
       "name": "Jamorko Pickett",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -3639,13 +3639,13 @@
     {
       "id": "Jared Sullinger - 203096",
       "name": "Jared Sullinger",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Jared Terrell - 1629123",
       "name": "Jared Terrell",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -3669,13 +3669,13 @@
     {
       "id": "Jarnell Stokes - 203950",
       "name": "Jarnell Stokes",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Jaron Blossomgame - 1628417",
       "name": "Jaron Blossomgame",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -3717,13 +3717,13 @@
     {
       "id": "Jarron Cumberland - 1629600",
       "name": "Jarron Cumberland",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Jase Richardson - 1642859",
       "name": "Jase Richardson",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -3747,19 +3747,19 @@
     {
       "id": "Javin DeLaurier - 1629602",
       "name": "Javin DeLaurier",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Javon Freeman-Liberty - 1631241",
       "name": "Javon Freeman-Liberty",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
       "id": "Javon Small - 1642914",
       "name": "Javon Small",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -3825,7 +3825,7 @@
     {
       "id": "Jaylen Martin - 1641798",
       "name": "Jaylen Martin",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3843,7 +3843,7 @@
     {
       "id": "Jaylen Sims - 1631301",
       "name": "Jaylen Sims",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3867,7 +3867,7 @@
     {
       "id": "Jaysean Paige - 1629873",
       "name": "Jaysean Paige",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -3879,7 +3879,7 @@
     {
       "id": "Jazian Gortman - 1641789",
       "name": "Jazian Gortman",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -3921,7 +3921,7 @@
     {
       "id": "Jeremiah Fears - 1642847",
       "name": "Jeremiah Fears",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -3939,7 +3939,7 @@
     {
       "id": "Jeremy Evans - 202379",
       "name": "Jeremy Evans",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -3957,7 +3957,7 @@
     {
       "id": "Jeremy Pargo - 202951",
       "name": "Jeremy Pargo",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -3981,7 +3981,7 @@
     {
       "id": "Jermaine Samuels Jr. - 1631257",
       "name": "Jermaine Samuels Jr.",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -3999,7 +3999,7 @@
     {
       "id": "Jesse Edwards - 1642399",
       "name": "Jesse Edwards",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -4017,7 +4017,7 @@
     {
       "id": "Jimmer Fredette - 202690",
       "name": "Jimmer Fredette",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -4035,7 +4035,7 @@
     {
       "id": "Joan Beringer - 1642866",
       "name": "Joan Beringer",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -4089,13 +4089,13 @@
     {
       "id": "Joel Anthony - 201202",
       "name": "Joel Anthony",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Joel Ayayi - 1630555",
       "name": "Joel Ayayi",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -4119,7 +4119,7 @@
     {
       "id": "John Butler Jr. - 1631219",
       "name": "John Butler Jr.",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -4155,7 +4155,7 @@
     {
       "id": "John Lucas III - 101249",
       "name": "John Lucas III",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -4179,7 +4179,7 @@
     {
       "id": "Johni Broome - 1641780",
       "name": "Johni Broome",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -4215,7 +4215,7 @@
     {
       "id": "Jon Teske - 1630257",
       "name": "Jon Teske",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -4299,13 +4299,13 @@
     {
       "id": "Jordan Farmar - 200770",
       "name": "Jordan Farmar",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Jordan Ford - 1630259",
       "name": "Jordan Ford",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -4317,7 +4317,7 @@
     {
       "id": "Jordan Hall - 1631160",
       "name": "Jordan Hall",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -4329,13 +4329,13 @@
     {
       "id": "Jordan Hill - 201941",
       "name": "Jordan Hill",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Jordan Loyd - 1628070",
       "name": "Jordan Loyd",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -4383,7 +4383,7 @@
     {
       "id": "Jordan Sibert - 1626296",
       "name": "Jordan Sibert",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -4431,7 +4431,7 @@
     {
       "id": "Josh Hall - 1630221",
       "name": "Josh Hall",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -4479,7 +4479,7 @@
     {
       "id": "Josh Reaves - 1629729",
       "name": "Josh Reaves",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -4491,7 +4491,7 @@
     {
       "id": "Josh Smith - 2746",
       "name": "Josh Smith",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -4521,7 +4521,7 @@
     {
       "id": "Jules Bernard - 1631262",
       "name": "Jules Bernard",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -4545,7 +4545,7 @@
     {
       "id": "Julian Washburn - 1627395",
       "name": "Julian Washburn",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -4557,7 +4557,7 @@
     {
       "id": "Julyan Stone - 202933",
       "name": "Julyan Stone",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -4581,13 +4581,13 @@
     {
       "id": "Justin Hamilton - 203120",
       "name": "Justin Hamilton",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Justin Harper - 202712",
       "name": "Justin Harper",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -4629,7 +4629,7 @@
     {
       "id": "Justin Wright-Foreman - 1629625",
       "name": "Justin Wright-Foreman",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -4659,7 +4659,7 @@
     {
       "id": "KJ McDaniels - 203909",
       "name": "KJ McDaniels",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -4689,19 +4689,19 @@
     {
       "id": "Kaiser Gates - 1629232",
       "name": "Kaiser Gates",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
       "id": "Kalin Lucas - 203564",
       "name": "Kalin Lucas",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
       "id": "Karim Mane - 1630211",
       "name": "Karim Mane",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -4743,13 +4743,13 @@
     {
       "id": "Keifer Sykes - 1626208",
       "name": "Keifer Sykes",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Keion Brooks Jr. - 1631232",
       "name": "Keion Brooks Jr.",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -4815,13 +4815,13 @@
     {
       "id": "Kendrick Perkins - 2570",
       "name": "Kendrick Perkins",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Kennedy Chandler - 1631113",
       "name": "Kennedy Chandler",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -4887,7 +4887,7 @@
     {
       "id": "Kevin Hervey - 1628987",
       "name": "Kevin Hervey",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -4911,13 +4911,13 @@
     {
       "id": "Kevin McCullar Jr. - 1641755",
       "name": "Kevin McCullar Jr.",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
       "id": "Kevin Pangos - 1630698",
       "name": "Kevin Pangos",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -4929,7 +4929,7 @@
     {
       "id": "Kevin Seraphin - 202338",
       "name": "Kevin Seraphin",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -4947,7 +4947,7 @@
     {
       "id": "Keyontae Johnson - 1641749",
       "name": "Keyontae Johnson",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -4959,7 +4959,7 @@
     {
       "id": "Khaman Maluach - 1642863",
       "name": "Khaman Maluach",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -5019,7 +5019,7 @@
     {
       "id": "Kobe Sanders - 1642920",
       "name": "Kobe Sanders",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -5031,13 +5031,13 @@
     {
       "id": "Koby Brea - 1642886",
       "name": "Koby Brea",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Kon Knueppel - 1642851",
       "name": "Kon Knueppel",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -5061,7 +5061,7 @@
     {
       "id": "Kris Humphries - 2743",
       "name": "Kris Humphries",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5079,13 +5079,13 @@
     {
       "id": "Ky Bowman - 1629065",
       "name": "Ky Bowman",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
       "id": "Kyle Alexander - 1629734",
       "name": "Kyle Alexander",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -5097,7 +5097,7 @@
     {
       "id": "Kyle Collinsworth - 1627858",
       "name": "Kyle Collinsworth",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5145,13 +5145,13 @@
     {
       "id": "Kyle Wiltjer - 1627787",
       "name": "Kyle Wiltjer",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Kylor Kelley - 1630283",
       "name": "Kylor Kelley",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -5181,7 +5181,7 @@
     {
       "id": "Lamar Patterson - 203934",
       "name": "Lamar Patterson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5217,7 +5217,7 @@
     {
       "id": "Larry Drew II - 203580",
       "name": "Larry Drew II",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5229,7 +5229,7 @@
     {
       "id": "Larry Sanders - 202336",
       "name": "Larry Sanders",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5241,7 +5241,7 @@
     {
       "id": "Lavoy Allen - 202730",
       "name": "Lavoy Allen",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5253,13 +5253,13 @@
     {
       "id": "Leaky Black - 1641778",
       "name": "Leaky Black",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
       "id": "Leandro Barbosa - 2571",
       "name": "Leandro Barbosa",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5283,13 +5283,13 @@
     {
       "id": "Liam McNeeley - 1642862",
       "name": "Liam McNeeley",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Liam Robbins - 1641857",
       "name": "Liam Robbins",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -5307,7 +5307,7 @@
     {
       "id": "London Perrantes - 1628506",
       "name": "London Perrantes",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5361,13 +5361,13 @@
     {
       "id": "Luis Montero - 1626242",
       "name": "Luis Montero",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Luis Scola - 2449",
       "name": "Luis Scola",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5421,7 +5421,7 @@
     {
       "id": "MJ Walker - 1630640",
       "name": "MJ Walker",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -5457,7 +5457,7 @@
     {
       "id": "Malcolm Cazalon - 1630608",
       "name": "Malcolm Cazalon",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -5481,7 +5481,7 @@
     {
       "id": "Malevy Leons - 1642502",
       "name": "Malevy Leons",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -5511,7 +5511,7 @@
     {
       "id": "Malik Williams - 1642013",
       "name": "Malik Williams",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -5523,13 +5523,13 @@
     {
       "id": "Mangok Mathiang - 1628493",
       "name": "Mangok Mathiang",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Manny Harris - 202412",
       "name": "Manny Harris",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5541,7 +5541,7 @@
     {
       "id": "Maozinha Pereira - 1641970",
       "name": "Maozinha Pereira",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -5565,7 +5565,7 @@
     {
       "id": "Marcelo Huertas - 1626273",
       "name": "Marcelo Huertas",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5583,13 +5583,13 @@
     {
       "id": "Marcus Bagley - 1630542",
       "name": "Marcus Bagley",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
       "id": "Marcus Derrickson - 1629094",
       "name": "Marcus Derrickson",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -5613,7 +5613,7 @@
     {
       "id": "Marcus Paige - 1627779",
       "name": "Marcus Paige",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5631,19 +5631,19 @@
     {
       "id": "Marcus Thornton - 201977",
       "name": "Marcus Thornton",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Marial Shayok - 1629621",
       "name": "Marial Shayok",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
       "id": "Mario Chalmers - 201596",
       "name": "Mario Chalmers",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5655,7 +5655,7 @@
     {
       "id": "Mark Sears - 1641813",
       "name": "Mark Sears",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -5667,7 +5667,7 @@
     {
       "id": "Markel Brown - 203900",
       "name": "Markel Brown",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5685,7 +5685,7 @@
     {
       "id": "Marko Guduric - 1629741",
       "name": "Marko Guduric",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -5697,7 +5697,7 @@
     {
       "id": "Markquis Nowell - 1641806",
       "name": "Markquis Nowell",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -5721,7 +5721,7 @@
     {
       "id": "Marquis Teague - 203104",
       "name": "Marquis Teague",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5775,19 +5775,19 @@
     {
       "id": "Matt Barnes - 2440",
       "name": "Matt Barnes",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Matt Costello - 1627856",
       "name": "Matt Costello",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Matt Hurt - 1630562",
       "name": "Matt Hurt",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -5811,7 +5811,7 @@
     {
       "id": "Matt Williams Jr. - 1628475",
       "name": "Matt Williams Jr.",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -5829,7 +5829,7 @@
     {
       "id": "Maurice Ndour - 1626254",
       "name": "Maurice Ndour",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5853,7 +5853,7 @@
     {
       "id": "Maxime Raynaud - 1642875",
       "name": "Maxime Raynaud",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -5877,7 +5877,7 @@
     {
       "id": "Metta World Peace - 1897",
       "name": "Metta World Peace",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5895,7 +5895,7 @@
     {
       "id": "Micah Peavy - 1642877",
       "name": "Micah Peavy",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -5919,19 +5919,19 @@
     {
       "id": "Michael Foster Jr. - 1630701",
       "name": "Michael Foster Jr.",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
       "id": "Michael Frazier II - 1626187",
       "name": "Michael Frazier II",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
       "id": "Michael Gbinije - 1627771",
       "name": "Michael Gbinije",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5961,7 +5961,7 @@
     {
       "id": "Mike Dunleavy - 2399",
       "name": "Mike Dunleavy",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5973,7 +5973,7 @@
     {
       "id": "Mike Miller - 2034",
       "name": "Mike Miller",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -5991,7 +5991,7 @@
     {
       "id": "Mike Tobey - 1627861",
       "name": "Mike Tobey",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6003,7 +6003,7 @@
     {
       "id": "Miles Kelly - 1642939",
       "name": "Miles Kelly",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6015,7 +6015,7 @@
     {
       "id": "Miles Norris - 1641936",
       "name": "Miles Norris",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -6033,7 +6033,7 @@
     {
       "id": "Milton Doyle - 1628495",
       "name": "Milton Doyle",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -6051,7 +6051,7 @@
     {
       "id": "Mitchell Creek - 1628249",
       "name": "Mitchell Creek",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -6075,13 +6075,13 @@
     {
       "id": "Mohamed Diawara - 1642885",
       "name": "Mohamed Diawara",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Monta Ellis - 101145",
       "name": "Monta Ellis",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6117,13 +6117,13 @@
     {
       "id": "Moses Wright - 1630589",
       "name": "Moses Wright",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Mouhamadou Gueye - 1631338",
       "name": "Mouhamadou Gueye",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -6135,7 +6135,7 @@
     {
       "id": "Moussa Cisse - 1630619",
       "name": "Moussa Cisse",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6153,13 +6153,13 @@
     {
       "id": "Myke Henry - 1627988",
       "name": "Myke Henry",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Myles Powell - 1629619",
       "name": "Myles Powell",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -6171,7 +6171,7 @@
     {
       "id": "Myron Gardner - 1642066",
       "name": "Myron Gardner",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6201,7 +6201,7 @@
     {
       "id": "Nate Darling - 1630268",
       "name": "Nate Darling",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -6219,7 +6219,7 @@
     {
       "id": "Nate Wolters - 203489",
       "name": "Nate Wolters",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -6231,7 +6231,7 @@
     {
       "id": "Nathan Mensah - 1641877",
       "name": "Nathan Mensah",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -6309,7 +6309,7 @@
     {
       "id": "Nico Mannion - 1630185",
       "name": "Nico Mannion",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -6327,7 +6327,7 @@
     {
       "id": "Nicolas Laprovittola - 1627879",
       "name": "Nicolas Laprovittola",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6339,19 +6339,19 @@
     {
       "id": "Nigel Hayes - 1628502",
       "name": "Nigel Hayes",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Nigel Hayes-Davis - 1628502",
       "name": "Nigel Hayes-Davis",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Nigel Williams-Goss - 1628430",
       "name": "Nigel Williams-Goss",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -6387,7 +6387,7 @@
     {
       "id": "Nique Clifford - 1642363",
       "name": "Nique Clifford",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6399,7 +6399,7 @@
     {
       "id": "Noah Penda - 1642869",
       "name": "Noah Penda",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6411,7 +6411,7 @@
     {
       "id": "Nolan Traore - 1642849",
       "name": "Nolan Traore",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6423,7 +6423,7 @@
     {
       "id": "Norris Cole - 202708",
       "name": "Norris Cole",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6471,7 +6471,7 @@
     {
       "id": "Omari Johnson - 204179",
       "name": "Omari Johnson",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -6501,7 +6501,7 @@
     {
       "id": "Onuralp Bitim - 1641931",
       "name": "Onuralp Bitim",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -6585,7 +6585,7 @@
     {
       "id": "Paris Bass - 1628238",
       "name": "Paris Bass",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -6609,7 +6609,7 @@
     {
       "id": "Patricio Garino - 1627868",
       "name": "Patricio Garino",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6669,7 +6669,7 @@
     {
       "id": "Paul Pierce - 1718",
       "name": "Paul Pierce",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6711,7 +6711,7 @@
     {
       "id": "Petr Cornelie - 1627822",
       "name": "Petr Cornelie",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -6723,13 +6723,13 @@
     {
       "id": "Phillip Wheeler - 1630762",
       "name": "Phillip Wheeler",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
       "id": "Pierre Jackson - 203510",
       "name": "Pierre Jackson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6759,7 +6759,7 @@
     {
       "id": "Quincy Olivari - 1642439",
       "name": "Quincy Olivari",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -6819,7 +6819,7 @@
     {
       "id": "Rakeem Christmas - 1626176",
       "name": "Rakeem Christmas",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6831,7 +6831,7 @@
     {
       "id": "Randy Foye - 200751",
       "name": "Randy Foye",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6843,7 +6843,7 @@
     {
       "id": "Rasheer Fleming - 1642853",
       "name": "Rasheer Fleming",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -6855,7 +6855,7 @@
     {
       "id": "Rawle Alkins - 1628959",
       "name": "Rawle Alkins",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -6891,7 +6891,7 @@
     {
       "id": "Reece Beekman - 1641736",
       "name": "Reece Beekman",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -6909,7 +6909,7 @@
     {
       "id": "Reggie Hearn - 203687",
       "name": "Reggie Hearn",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -6927,7 +6927,7 @@
     {
       "id": "Reggie Williams - 202130",
       "name": "Reggie Williams",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -6969,7 +6969,7 @@
     {
       "id": "Rob Edwards - 1630306",
       "name": "Rob Edwards",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -6981,7 +6981,7 @@
     {
       "id": "Robert Franks - 1629606",
       "name": "Robert Franks",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -7023,13 +7023,13 @@
     {
       "id": "Rodney Purvis - 1628681",
       "name": "Rodney Purvis",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Rodney Stuckey - 201155",
       "name": "Rodney Stuckey",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7065,13 +7065,13 @@
     {
       "id": "Ronnie Price - 101179",
       "name": "Ronnie Price",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Roy Hibbert - 201579",
       "name": "Roy Hibbert",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7083,7 +7083,7 @@
     {
       "id": "Ruben Nembhard Jr. - 1630612",
       "name": "Ruben Nembhard Jr.",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -7137,19 +7137,19 @@
     {
       "id": "Ryan Kalkbrenner - 1641750",
       "name": "Ryan Kalkbrenner",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Ryan Kelly - 203527",
       "name": "Ryan Kelly",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Ryan Nembhard - 1642948",
       "name": "Ryan Nembhard",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -7209,13 +7209,13 @@
     {
       "id": "Sasha Vezenkov - 1628426",
       "name": "Sasha Vezenkov",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
       "id": "Sasha Vujacic - 2756",
       "name": "Sasha Vujacic",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7227,7 +7227,7 @@
     {
       "id": "Scott Machado - 203159",
       "name": "Scott Machado",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -7239,7 +7239,7 @@
     {
       "id": "Scottie Lewis - 1630575",
       "name": "Scottie Lewis",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -7263,7 +7263,7 @@
     {
       "id": "Sean McDermott - 1630253",
       "name": "Sean McDermott",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -7275,7 +7275,7 @@
     {
       "id": "Semaj Christon - 203902",
       "name": "Semaj Christon",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7293,7 +7293,7 @@
     {
       "id": "Sergio Rodriguez - 200771",
       "name": "Sergio Rodriguez",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7305,7 +7305,7 @@
     {
       "id": "Seth Lundy - 1641754",
       "name": "Seth Lundy",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -7341,19 +7341,19 @@
     {
       "id": "Shamorie Ponds - 1629044",
       "name": "Shamorie Ponds",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
       "id": "Shane Larkin - 203499",
       "name": "Shane Larkin",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Shaq Buchanan - 1629783",
       "name": "Shaq Buchanan",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -7377,13 +7377,13 @@
     {
       "id": "Shawn Long - 1627848",
       "name": "Shawn Long",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Sheldon Mac - 1627815",
       "name": "Sheldon Mac",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7413,7 +7413,7 @@
     {
       "id": "Sion James - 1642883",
       "name": "Sion James",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -7443,7 +7443,7 @@
     {
       "id": "Spencer Hawes - 201150",
       "name": "Spencer Hawes",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7467,7 +7467,7 @@
     {
       "id": "Stanton Kidd - 1629742",
       "name": "Stanton Kidd",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -7479,7 +7479,7 @@
     {
       "id": "Stephen Zimmerman - 1627757",
       "name": "Stephen Zimmerman",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7497,7 +7497,7 @@
     {
       "id": "Steve Novak - 200779",
       "name": "Steve Novak",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7539,13 +7539,13 @@
     {
       "id": "Taelon Peter - 1643007",
       "name": "Taelon Peter",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Tahjere McCall - 1628769",
       "name": "Tahjere McCall",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -7575,7 +7575,7 @@
     {
       "id": "Tariq Owens - 1629745",
       "name": "Tariq Owens",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -7611,7 +7611,7 @@
     {
       "id": "Terquavion Smith - 1631173",
       "name": "Terquavion Smith",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -7689,13 +7689,13 @@
     {
       "id": "Thomas Robinson - 203080",
       "name": "Thomas Robinson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Thomas Welsh - 1629118",
       "name": "Thomas Welsh",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -7707,7 +7707,7 @@
     {
       "id": "Tiago Splitter - 201168",
       "name": "Tiago Splitter",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7737,7 +7737,7 @@
     {
       "id": "Timmy Allen - 1641851",
       "name": "Timmy Allen",
-      "seasons": 2024,
+      "seasons": [2024],
       "most_recent_season": 2024
     },
     {
@@ -7773,7 +7773,7 @@
     {
       "id": "Toney Douglas - 201962",
       "name": "Toney Douglas",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
@@ -7827,7 +7827,7 @@
     {
       "id": "Travis Wear - 204037",
       "name": "Travis Wear",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -7839,13 +7839,13 @@
     {
       "id": "Trayvon Palmer - 1629309",
       "name": "Trayvon Palmer",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
       "id": "Tre Johnson - 1642848",
       "name": "Tre Johnson",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -7881,7 +7881,7 @@
     {
       "id": "Trentyn Flowers - 1642280",
       "name": "Trentyn Flowers",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -7899,13 +7899,13 @@
     {
       "id": "Trevon Duval - 1628979",
       "name": "Trevon Duval",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
       "id": "Trevon Scott - 1630286",
       "name": "Trevon Scott",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -7923,19 +7923,19 @@
     {
       "id": "Trevor Hudgins - 1631309",
       "name": "Trevor Hudgins",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
       "id": "Trevor Keels - 1631211",
       "name": "Trevor Keels",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
       "id": "Trey Alexander - 1641725",
       "name": "Trey Alexander",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -7959,7 +7959,7 @@
     {
       "id": "Trey McKinney-Jones - 203590",
       "name": "Trey McKinney-Jones",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -7989,7 +7989,7 @@
     {
       "id": "Tristen Newton - 1641803",
       "name": "Tristen Newton",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -8001,7 +8001,7 @@
     {
       "id": "Troy Caupain - 1628505",
       "name": "Troy Caupain",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -8025,13 +8025,13 @@
     {
       "id": "Ty Lawson - 201951",
       "name": "Ty Lawson",
-      "seasons": 2017,
+      "seasons": [2017],
       "most_recent_season": 2017
     },
     {
       "id": "Ty-Shon Alexander - 1630234",
       "name": "Ty-Shon Alexander",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -8043,7 +8043,7 @@
     {
       "id": "Tyler Bey - 1630189",
       "name": "Tyler Bey",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
@@ -8061,7 +8061,7 @@
     {
       "id": "Tyler Davis - 1629093",
       "name": "Tyler Davis",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -8079,7 +8079,7 @@
     {
       "id": "Tyler Hall - 1629788",
       "name": "Tyler Hall",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -8109,7 +8109,7 @@
     {
       "id": "Tyler Smith - 1641890",
       "name": "Tyler Smith",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -8157,7 +8157,7 @@
     {
       "id": "Tyrese Proctor - 1642878",
       "name": "Tyrese Proctor",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -8199,7 +8199,7 @@
     {
       "id": "Ulrich Chomche - 1642279",
       "name": "Ulrich Chomche",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -8211,13 +8211,13 @@
     {
       "id": "VJ Edgecombe - 1642845",
       "name": "VJ Edgecombe",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Vander Blue - 203505",
       "name": "Vander Blue",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -8235,7 +8235,7 @@
     {
       "id": "Vic Law - 1629724",
       "name": "Vic Law",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -8265,13 +8265,13 @@
     {
       "id": "Vincent Edwards - 1629053",
       "name": "Vincent Edwards",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
       "id": "Vincent Hunter - 1626205",
       "name": "Vincent Hunter",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -8313,7 +8313,7 @@
     {
       "id": "Walter Clayton Jr. - 1642383",
       "name": "Walter Clayton Jr.",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -8373,25 +8373,25 @@
     {
       "id": "Will Magnay - 1630266",
       "name": "Will Magnay",
-      "seasons": 2021,
+      "seasons": [2021],
       "most_recent_season": 2021
     },
     {
       "id": "Will Richard - 1642954",
       "name": "Will Richard",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Will Riley - 1642860",
       "name": "Will Riley",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "William Howard - 1629739",
       "name": "William Howard",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -8421,7 +8421,7 @@
     {
       "id": "Xavier Cooks - 1641645",
       "name": "Xavier Cooks",
-      "seasons": 2023,
+      "seasons": [2023],
       "most_recent_season": 2023
     },
     {
@@ -8433,19 +8433,19 @@
     {
       "id": "Xavier Munford - 204098",
       "name": "Xavier Munford",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Xavier Rathan-Mayes - 1628504",
       "name": "Xavier Rathan-Mayes",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
       "id": "Xavier Silas - 202918",
       "name": "Xavier Silas",
-      "seasons": 2018,
+      "seasons": [2018],
       "most_recent_season": 2018
     },
     {
@@ -8463,19 +8463,19 @@
     {
       "id": "Yang Hansen - 1642905",
       "name": "Yang Hansen",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Yanic Konan Niederhäuser - 1642949",
       "name": "Yanic Konan Niederhäuser",
-      "seasons": 2026,
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
       "id": "Yante Maten - 1628999",
       "name": "Yante Maten",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
@@ -8487,13 +8487,13 @@
     {
       "id": "Yuki Kawamura - 1642530",
       "name": "Yuki Kawamura",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
       "id": "Yuri Collins - 1641879",
       "name": "Yuri Collins",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     },
     {
@@ -8511,7 +8511,7 @@
     {
       "id": "Yves Pons - 1630582",
       "name": "Yves Pons",
-      "seasons": 2022,
+      "seasons": [2022],
       "most_recent_season": 2022
     },
     {
@@ -8541,13 +8541,13 @@
     {
       "id": "Zach Lofton - 1629155",
       "name": "Zach Lofton",
-      "seasons": 2019,
+      "seasons": [2019],
       "most_recent_season": 2019
     },
     {
       "id": "Zach Norvell Jr. - 1629668",
       "name": "Zach Norvell Jr.",
-      "seasons": 2020,
+      "seasons": [2020],
       "most_recent_season": 2020
     },
     {
@@ -8607,103 +8607,133 @@
     {
       "id": "Zyon Pullin - 1642389",
       "name": "Zyon Pullin",
-      "seasons": 2025,
+      "seasons": [2025],
       "most_recent_season": 2025
     }
   ],
   "teams": [
     {
-      "name": "Atlanta Hawks"
+      "name": "Atlanta Hawks",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Boston Celtics"
+      "name": "Boston Celtics",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Brooklyn Nets"
+      "name": "Brooklyn Nets",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Charlotte Hornets"
+      "name": "Charlotte Hornets",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Chicago Bulls"
+      "name": "Chicago Bulls",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Cleveland Cavaliers"
+      "name": "Cleveland Cavaliers",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Dallas Mavericks"
+      "name": "Dallas Mavericks",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Denver Nuggets"
+      "name": "Denver Nuggets",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Detroit Pistons"
+      "name": "Detroit Pistons",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Golden State Warriors"
+      "name": "Golden State Warriors",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Houston Rockets"
+      "name": "Houston Rockets",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Indiana Pacers"
+      "name": "Indiana Pacers",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "LA Clippers"
+      "name": "LA Clippers",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Los Angeles Lakers"
+      "name": "Los Angeles Lakers",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Memphis Grizzlies"
+      "name": "Memphis Grizzlies",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Miami Heat"
+      "name": "Miami Heat",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Milwaukee Bucks"
+      "name": "Milwaukee Bucks",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Minnesota Timberwolves"
+      "name": "Minnesota Timberwolves",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "New Orleans Pelicans"
+      "name": "New Orleans Pelicans",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "New York Knicks"
+      "name": "New York Knicks",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Oklahoma City Thunder"
+      "name": "Oklahoma City Thunder",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Orlando Magic"
+      "name": "Orlando Magic",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Philadelphia 76ers"
+      "name": "Philadelphia 76ers",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Phoenix Suns"
+      "name": "Phoenix Suns",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Portland Trail Blazers"
+      "name": "Portland Trail Blazers",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Sacramento Kings"
+      "name": "Sacramento Kings",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "San Antonio Spurs"
+      "name": "San Antonio Spurs",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Toronto Raptors"
+      "name": "Toronto Raptors",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Utah Jazz"
+      "name": "Utah Jazz",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     },
     {
-      "name": "Washington Wizards"
+      "name": "Washington Wizards",
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2025-11-19 12:56:30",
+  "generated_at": "2025-11-19 14:46:12",
   "total_players": 1435,
   "total_teams": 30
 }
