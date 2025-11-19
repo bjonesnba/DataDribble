@@ -574,10 +574,20 @@ table {
   }
   
   .row-container-small {
-    flex-direction: column !important;
-    gap: 10px !important;
+    flex-direction: row !important; /* Keep horizontal on mobile */
+    gap: 5px !important;
     max-height: none !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .row-container-small .title-container {
+    flex: 2 !important;
+    width: auto !important;
+  }
+  
+  .row-container-small .epi-container {
+    flex: 1 !important;
+    width: auto !important;
   }
   
   .row-container-small-team {
@@ -611,8 +621,8 @@ table {
     width: 100% !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
-    margin-bottom: 2px !important;
-    margin-top: 2px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
   }
   
   /* Trajectory container */
@@ -632,15 +642,15 @@ table {
   
   /* Reactable - comprehensive targeting */
   .reactable {
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
   
   .reactable table {
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
   
   .reactable * {
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
   
   /* Reactable header cells */
@@ -648,7 +658,7 @@ table {
   .reactable .rt-thead .rt-th-inner,
   .reactable .rt-th-group,
   .reactable .rt-th-group-inner {
-    font-size: 11px !important;
+    font-size: 12px !important;
     padding: 4px 3px !important;
   }
   
@@ -656,7 +666,7 @@ table {
   .reactable .rt-tbody .rt-td,
   .reactable .rt-tbody .rt-td-inner,
   .reactable .rt-tr .rt-td {
-    font-size: 11px !important;
+    font-size: 12px !important;
     padding: 4px 3px !important;
   }
   
@@ -664,7 +674,7 @@ table {
   .reactable .rt-tr-group,
   .reactable .rt-td-inner div,
   .reactable .rt-th-inner div {
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
   
   /* ===== NAVBAR ADJUSTMENTS ===== */
