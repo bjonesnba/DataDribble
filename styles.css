@@ -563,21 +563,21 @@ table {
   .side-by-side {
     width: 100% !important;
     flex: none !important;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
   
   /* Row containers stack items */
   .row-container {
     flex-direction: column !important;
     gap: 10px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
   }
   
   .row-container-small {
     flex-direction: row !important; /* Keep horizontal on mobile */
     gap: 5px !important;
     max-height: none !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
   }
   
   .row-container-small .title-container {
@@ -594,14 +594,14 @@ table {
     flex-direction: column !important;
     gap: 10px !important;
     max-height: none !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
   }
   
   /* All plot containers full width */
   .plot-container {
     width: 100% !important;
     flex: none !important;
-    margin: 10px 0 !important;
+    margin: 0px 0 !important;
   }
   
   .title-container {
@@ -629,12 +629,12 @@ table {
   .table-container h2 {
     font-size: 1.5em !important;
     margin-top: 0px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
   }
   
   /* First h2 after another table-container should have less top margin */
   .table-container + .table-container h2 {
-    margin-top: 5px !important;
+    margin-top: 0px !important;
   }
 }
   
@@ -642,7 +642,7 @@ table {
   .trajectory-container {
     width: 100% !important;
     overflow-x: auto !important;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   /* ===== TABLES AND REACTABLE ===== */
