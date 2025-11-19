@@ -625,6 +625,19 @@ table {
     margin-top: 0px !important;
   }
   
+  /* H2 headers inside table containers - more specific rule */
+  .table-container h2 {
+    font-size: 2.2em !important;
+    margin-top: 15px !important;
+    margin-bottom: 8px !important;
+  }
+  
+  /* First h2 after another table-container should have less top margin */
+  .table-container + .table-container h2 {
+    margin-top: 5px !important;
+  }
+}
+  
   /* Trajectory container */
   .trajectory-container {
     width: 100% !important;
