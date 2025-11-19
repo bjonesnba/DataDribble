@@ -230,7 +230,16 @@ function performSearch(query) {
 }
 
 function navigateToPlayer(playerId) {
-  window.location.href = `player_dashboard.html?season=2026&player=${encodeURIComponent(playerId)}`;
+  // Find the player in searchData
+  const player = searchData.players.find(p => p.id === playerId);
+  
+  if (player && player.most_recent_season) {
+    // Navigate to their most recent season
+    window.location.href = `player_dashboard.html?season=${player.most_recent_season}&player=${encodeURIComponent(playerId)}`;
+  } else {
+    // Fallback to 2026 if no season info
+    window.location.href = `player_dashboard.html?season=2026&player=${encodeURIComponent(playerId)}`;
+  }
 }
 
 function navigateToTeam(teamName) {
