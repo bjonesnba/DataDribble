@@ -620,15 +620,49 @@ table {
     margin-bottom: 20px;
   }
   
-  /* Make tables scrollable and smaller */
+  /* ===== TABLES AND REACTABLE ===== */
+  
+  /* Regular HTML tables */
   table {
-    font-size: 0.8em !important;
+    font-size: 0.75em !important;
     min-width: 100%;
   }
   
-  /* Reactable tables */
+  /* Reactable - comprehensive targeting */
   .reactable {
-    font-size: 0.8em !important;
+    font-size: 11px !important;
+  }
+  
+  .reactable table {
+    font-size: 11px !important;
+  }
+  
+  .reactable * {
+    font-size: 11px !important;
+  }
+  
+  /* Reactable header cells */
+  .reactable .rt-thead .rt-th,
+  .reactable .rt-thead .rt-th-inner,
+  .reactable .rt-th-group,
+  .reactable .rt-th-group-inner {
+    font-size: 11px !important;
+    padding: 4px 3px !important;
+  }
+  
+  /* Reactable body cells */
+  .reactable .rt-tbody .rt-td,
+  .reactable .rt-tbody .rt-td-inner,
+  .reactable .rt-tr .rt-td {
+    font-size: 11px !important;
+    padding: 4px 3px !important;
+  }
+  
+  /* Reactable row groups and other elements */
+  .reactable .rt-tr-group,
+  .reactable .rt-td-inner div,
+  .reactable .rt-th-inner div {
+    font-size: 11px !important;
   }
   
   /* ===== NAVBAR ADJUSTMENTS ===== */
@@ -776,8 +810,16 @@ table {
     font-size: 1.2em !important;
   }
   
+  /* Regular tables */
   table {
-    font-size: 0.7em !important;
+    font-size: 0.65em !important;
+  }
+  
+  /* Reactable tables even smaller on small phones */
+  .reactable,
+  .reactable *,
+  .reactable table {
+    font-size: 10px !important;
   }
   
   .navbar-default .navbar-brand {
