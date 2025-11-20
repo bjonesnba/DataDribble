@@ -754,12 +754,6 @@ table {
     font-size: 12px !important;
   }
   
-  /* Reactable column max width */
-  .reactable .rt-td,
-  .reactable .rt-th {
-    max-width: 100px !important;
-  }
-  
   /* Reactable header cells */
   .reactable .rt-thead .rt-th,
   .reactable .rt-thead .rt-th-inner,
