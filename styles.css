@@ -650,22 +650,21 @@ table {
     margin-top: 0 !important;
   }
   
-   /* Table containers */
+  /* Table containers */
   .table-container {
     width: 100% !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
     margin-bottom: 5px !important;
     margin-top: 0px !important;
-    padding-top: 0px !important; /* Add this */
   }
   
-  /* Remove ALL margins from h2 in table containers */
+  /* H2 headers inside table containers - more specific rule */
   .table-container h2 {
     font-size: 1.8em !important;
     margin-top: 0px !important;
     margin-bottom: 8px !important;
-    padding-top: 0px !important; /* Add this */
+    padding-top: 0px !important;
   }
   
   /* Remove margin from any paragraph before h2 */
@@ -680,7 +679,32 @@ table {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
   }
-
+  
+  /* H2 headers OUTSIDE containers (standalone section headers) */
+  .main-container > h2 {
+    font-size: 1.8em !important;
+    margin-top: 0px !important;
+    margin-bottom: 8px !important;
+    padding-top: 0px !important;
+  }
+  
+  /* Remove margin from paragraphs before standalone h2 */
+  .main-container > p + h2 {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  
+  /* Remove default paragraph spacing in main container */
+  .main-container > p:empty {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: none !important;
+  }
+  
+  /* Reduce margins on row containers that come after h2 */
+  h2 + .row-container {
+    margin-top: 5px !important;
+  }
   
   /* Trajectory container */
   .trajectory-container {
@@ -688,20 +712,6 @@ table {
     overflow-x: auto !important;
     margin-bottom: 0px;
   }
-  
-    /* H2 headers that are NOT inside table-container (standalone headers) */
-  .main-container > h2 {
-    font-size: 1.8em !important;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-  }
-  
-  /* H2 right after row-container should have minimal top margin */
-  .row-container + h2,
-  .table-container + h2 {
-    margin-top: 5px !important;
-  }
-}
   
   /* ===== TABLES AND REACTABLE ===== */
   
