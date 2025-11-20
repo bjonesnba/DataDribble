@@ -778,6 +778,18 @@ table {
     font-size: 12px !important;
   }
   
+  /* Names table - apply max width of 100px to columns */
+  .names-table .rt-td,
+  .names-table .rt-th,
+  .names-table .rt-td-inner,
+  .names-table .rt-th-inner,
+  .names-table .rt-thead .rt-th,
+  .names-table .rt-tbody .rt-td {
+    max-width: 100px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  
   /* ===== NAVBAR ADJUSTMENTS ===== */
   .navbar {
     position: fixed !important;
