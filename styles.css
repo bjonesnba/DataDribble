@@ -650,31 +650,37 @@ table {
     margin-top: 0 !important;
   }
   
-  /* Table containers */
+   /* Table containers */
   .table-container {
     width: 100% !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
     margin-bottom: 5px !important;
     margin-top: 0px !important;
+    padding-top: 0px !important; /* Add this */
   }
   
-  /* H2 headers inside table containers - more specific rule */
+  /* Remove ALL margins from h2 in table containers */
   .table-container h2 {
     font-size: 1.8em !important;
     margin-top: 0px !important;
     margin-bottom: 8px !important;
+    padding-top: 0px !important; /* Add this */
   }
   
-  /* First h2 after another table-container should have less top margin */
-  .table-container + .table-container h2 {
-    margin-top: 0px !important;
-  }
-  
-  /* Remove extra margin from first h2 in a table-container */
+  /* Remove margin from any paragraph before h2 */
+  .table-container p + h2,
   .table-container > h2:first-child {
     margin-top: 0px !important;
+    padding-top: 0px !important;
   }
+  
+  /* Remove default paragraph spacing in table containers */
+  .table-container > p {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
   
   /* Trajectory container */
   .trajectory-container {
