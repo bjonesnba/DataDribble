@@ -542,9 +542,9 @@ table {
   }
   
   h2 {
-    font-size: 1.5em !important;
-    margin-top: 0px !important;
-    margin-bottom: 5px !important;
+    font-size: 1.8em !important;
+    margin-top: 15px !important;
+    margin-bottom: 8px !important;
   }
   
   h3 {
@@ -563,7 +563,7 @@ table {
   .side-by-side {
     width: 100% !important;
     flex: none !important;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
   
   /* Row containers stack items */
@@ -573,35 +573,69 @@ table {
     margin-bottom: 5px !important;
   }
   
+  /* Row container small - keep horizontal on mobile */
   .row-container-small {
     flex-direction: row !important; /* Keep horizontal on mobile */
     gap: 5px !important;
     max-height: none !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
+  }
+  
+  .row-container-small .plot-container {
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
   }
   
   .row-container-small .title-container {
     flex: 2 !important;
-    width: auto !important;
   }
   
   .row-container-small .epi-container {
     flex: 1 !important;
-    width: auto !important;
   }
   
+  .row-container-small img,
+  .row-container-small svg {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+  }
+  
+  /* Row container small team - keep horizontal on mobile */
   .row-container-small-team {
-    flex-direction: column !important;
-    gap: 10px !important;
+    flex-direction: row !important; /* Keep horizontal on mobile */
+    gap: 5px !important;
     max-height: none !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
+  }
+  
+  .row-container-small-team .plot-container {
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+  
+  .row-container-small-team .title-container {
+    flex: 2 !important;
+  }
+  
+  .row-container-small-team .epi-container {
+    flex: 1 !important;
+  }
+  
+  .row-container-small-team img,
+  .row-container-small-team svg {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
   }
   
   /* All plot containers full width */
   .plot-container {
     width: 100% !important;
     flex: none !important;
-    margin: 10px 0 !important;
+    margin: 0px 0 !important;
   }
   
   .title-container {
@@ -621,28 +655,32 @@ table {
     width: 100% !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
-    margin-bottom: 0px !important;
+    margin-bottom: 5px !important;
     margin-top: 0px !important;
   }
   
   /* H2 headers inside table containers - more specific rule */
   .table-container h2 {
-    font-size: 1.5em !important;
+    font-size: 1.8em !important;
     margin-top: 0px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 8px !important;
   }
   
   /* First h2 after another table-container should have less top margin */
   .table-container + .table-container h2 {
-    margin-top: 5px !important;
+    margin-top: 0px !important;
   }
-}
+  
+  /* Remove extra margin from first h2 in a table-container */
+  .table-container > h2:first-child {
+    margin-top: 0px !important;
+  }
   
   /* Trajectory container */
   .trajectory-container {
     width: 100% !important;
     overflow-x: auto !important;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   /* ===== TABLES AND REACTABLE ===== */
@@ -832,7 +870,7 @@ table {
   }
   
   h2 {
-    font-size: 1.2em !important;
+    font-size: 1.5em !important;
   }
   
   /* Regular tables */
