@@ -778,6 +778,27 @@ table {
     font-size: 12px !important;
   }
   
+  /* Default reactable tables (dashboard pages) - apply max width */
+  .reactable .rt-td,
+  .reactable .rt-th {
+    max-width: 100px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  
+  /* Index tables - override to auto-fit and full width */
+  .index-table {
+    width: 100% !important;
+  }
+  
+  .index-table .rt-td,
+  .index-table .rt-th {
+    max-width: none !important;
+    width: auto !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+  
   /* ===== NAVBAR ADJUSTMENTS ===== */
   .navbar {
     position: fixed !important;
