@@ -644,7 +644,7 @@ table {
     width: 100% !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
     margin-top: 0px !important;
   }
   
@@ -652,7 +652,7 @@ table {
   .table-container h2 {
     font-size: 1.8em !important;
     margin-top: 0px !important;  /* Changed from 15px to 0px */
-    margin-bottom: 0px !important;
+    margin-bottom: 8px !important;
   }
   
   /* First h2 after another table-container should have less top margin */
