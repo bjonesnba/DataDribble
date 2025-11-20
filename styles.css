@@ -689,6 +689,20 @@ table {
     margin-bottom: 0px;
   }
   
+    /* H2 headers that are NOT inside table-container (standalone headers) */
+  .main-container > h2 {
+    font-size: 1.8em !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  
+  /* H2 right after row-container should have minimal top margin */
+  .row-container + h2,
+  .table-container + h2 {
+    margin-top: 5px !important;
+  }
+}
+  
   /* ===== TABLES AND REACTABLE ===== */
   
   /* Regular HTML tables */
