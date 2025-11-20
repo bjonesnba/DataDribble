@@ -651,14 +651,20 @@ table {
   /* H2 headers inside table containers - more specific rule */
   .table-container h2 {
     font-size: 1.8em !important;
-    margin-top: 15px !important;
+    margin-top: 0px !important;  /* Changed from 15px to 0px */
     margin-bottom: 8px !important;
   }
   
   /* First h2 after another table-container should have less top margin */
   .table-container + .table-container h2 {
-    margin-top: 10px !important;
+    margin-top: 0px !important;
   }
+  
+  /* Remove extra margin from first h2 in a table-container */
+  .table-container > h2:first-child {
+    margin-top: 0px !important;
+  }
+}
   
   /* Trajectory container */
   .trajectory-container {
