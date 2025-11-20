@@ -680,6 +680,26 @@ table {
     margin-bottom: 0px !important;
   }
   
+  /* Target R Markdown section divs (standalone headers outside containers) */
+  .section.level2 {
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+    padding-top: 0px !important;
+  }
+  
+  .section.level2 h2 {
+    font-size: 1.8em !important;
+    margin-top: 0px !important;
+    margin-bottom: 8px !important;
+    padding-top: 0px !important;
+  }
+  
+  /* Remove spacing between sections */
+  .section.level2 + .row-container,
+  .section.level2 + .table-container {
+    margin-top: 0px !important;
+  }
+  
   /* H2 headers OUTSIDE containers (standalone section headers) */
   .main-container > h2 {
     font-size: 1.8em !important;
