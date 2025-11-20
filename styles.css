@@ -592,7 +592,7 @@ table {
   
   .row-container-small-team {
     flex-direction: row !important; /* Keep horizontal on mobile */
-    gap: 10px !important;
+    gap: 5px !important;
     max-height: none !important;
     margin-bottom: 0px !important;
   }
