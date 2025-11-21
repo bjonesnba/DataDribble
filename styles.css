@@ -507,6 +507,16 @@ h2 {
 }
 
 /* ===================================
+   DESKTOP STYLES FOR names-table
+   =================================== */
+
+/* Desktop: namePlayer column (first column) in names-table gets minWidth 200px */
+.names-table .rt-th:first-child,
+.names-table .rt-td:first-child {
+  min-width: 200px !important;
+}
+
+/* ===================================
    MOBILE RESPONSIVE STYLES
    Add this to the END of your styles.css
    =================================== */
@@ -778,16 +788,29 @@ table {
     font-size: 12px !important;
   }
   
-  /* Names table - apply max width of 100px to columns */
-  .names-table .rt-td,
-  .names-table .rt-th,
-  .names-table .rt-td-inner,
-  .names-table .rt-th-inner,
-  .names-table .rt-thead .rt-th,
-  .names-table .rt-tbody .rt-td {
+  /* Names table - ONLY first column (namePlayer) gets max width of 100px on mobile */
+  .names-table .rt-th:first-child,
+  .names-table .rt-td:first-child {
     max-width: 100px !important;
+    min-width: 80px !important;
+    width: 100px !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+  
+  /* Allow links inside first column to also truncate */
+  .names-table .rt-td:first-child a {
+    display: block !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+  
+  /* Other columns in names-table remain at their default widths */
+  .names-table .rt-th:not(:first-child),
+  .names-table .rt-td:not(:first-child) {
+    max-width: none !important;
   }
   
   /* ===== NAVBAR ADJUSTMENTS ===== */
