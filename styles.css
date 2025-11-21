@@ -510,10 +510,27 @@ h2 {
    DESKTOP STYLES FOR names-table
    =================================== */
 
-/* Desktop: namePlayer column (first column) in names-table gets minWidth 200px */
+/* Desktop: namePlayer column (first column) in names-table - fixed width */
 .names-table .rt-th:first-child,
 .names-table .rt-td:first-child {
+  width: 200px !important;
   min-width: 200px !important;
+  max-width: 200px !important;
+}
+
+/* Sticky columns need explicit width on desktop */
+.names-table .rt-td-sticky-left,
+.names-table .rt-th-sticky-left {
+  width: 200px !important;
+  min-width: 200px !important;
+  max-width: 200px !important;
+}
+
+/* Ensure names-table sticky column has same font size as other columns on desktop */
+.names-table .rt-td-sticky,
+.names-table .rt-th-sticky,
+.names-table .rt-td-sticky a {
+  font-size: 15px !important;
 }
 
 /* ===================================
@@ -788,15 +805,23 @@ table {
     font-size: 12px !important;
   }
   
-  /* Names table - ONLY first column (namePlayer) gets max width of 100px on mobile */
+  /* Names table - ONLY first column (namePlayer) gets fixed width of 100px on mobile */
   .names-table .rt-th:first-child,
   .names-table .rt-td:first-child {
-    max-width: 100px !important;
-    min-width: 80px !important;
     width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
+  }
+  
+  /* Sticky columns need explicit width on mobile */
+  .names-table .rt-td-sticky-left,
+  .names-table .rt-th-sticky-left {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
   }
   
   /* Allow links inside first column to also truncate */
@@ -814,18 +839,18 @@ table {
   }
   
   /* Fix sticky column font size in names-table */
-.names-table .rt-td-sticky,
-.names-table .rt-th-sticky,
-.names-table .rt-td-sticky a,
-.names-table .rt-th-sticky-left {
-  font-size: 12px !important;
-}
+  .names-table .rt-td-sticky,
+  .names-table .rt-th-sticky,
+  .names-table .rt-td-sticky a,
+  .names-table .rt-th-sticky-left {
+    font-size: 12px !important;
+  }
 
-/* Ensure sticky column inner elements also match */
-.names-table .rt-td-sticky .rt-td-inner,
-.names-table .rt-th-sticky .rt-th-inner {
-  font-size: 12px !important;
-}
+  /* Ensure sticky column inner elements also match */
+  .names-table .rt-td-sticky .rt-td-inner,
+  .names-table .rt-th-sticky .rt-th-inner {
+    font-size: 12px !important;
+  }
   
   /* ===== NAVBAR ADJUSTMENTS ===== */
   .navbar {
