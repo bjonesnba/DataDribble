@@ -813,6 +813,20 @@ table {
     max-width: none !important;
   }
   
+  /* Fix sticky column font size in names-table */
+.names-table .rt-td-sticky,
+.names-table .rt-th-sticky,
+.names-table .rt-td-sticky a,
+.names-table .rt-th-sticky-left {
+  font-size: 12px !important;
+}
+
+/* Ensure sticky column inner elements also match */
+.names-table .rt-td-sticky .rt-td-inner,
+.names-table .rt-th-sticky .rt-th-inner {
+  font-size: 12px !important;
+}
+  
   /* ===== NAVBAR ADJUSTMENTS ===== */
   .navbar {
     position: fixed !important;
