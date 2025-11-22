@@ -492,51 +492,44 @@ h2 {
    DESKTOP STYLES FOR names-table
    =================================== */
 
-/* Desktop: namePlayer column (first column) in names-table - fixed width */
-.names-table .rt-th:first-child,
-.names-table .rt-td:first-child {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-  flex: 0 0 200px !important;
-}
+/* Desktop uses widths set in R code - no width overrides needed */
 
-/* Apply to ALL sticky elements */
-.names-table .rt-td-sticky-left,
-.names-table .rt-th-sticky-left,
-.names-table .rt-td-sticky,
-.names-table .rt-th-sticky {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-  flex: 0 0 200px !important;
-}
-
-/* Force sticky left specifically */
-.names-table [style*="position: sticky"],
-.names-table [style*="position:sticky"] {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-}
-
-/* Ensure sticky column inner content also respects width */
-.names-table .rt-td-sticky-left .rt-td-inner,
-.names-table .rt-th-sticky-left .rt-th-inner,
-.names-table .rt-td-sticky .rt-td-inner,
-.names-table .rt-th-sticky .rt-th-inner {
-  width: 200px !important;
-  max-width: 200px !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  white-space: nowrap !important;
-}
-
-/* Ensure names-table sticky column has same font size as other columns on desktop */
+/* Ensure names-table sticky columns have same font size as other columns on desktop */
 .names-table .rt-td-sticky,
 .names-table .rt-th-sticky,
 .names-table .rt-td-sticky a {
   font-size: 15px !important;
+}
+
+/* Fill the gap behind sticky columns when scrolling */
+.names-table .rt-td-sticky-left,
+.names-table .rt-th-sticky-left {
+  background-color: #ffffff !important;
+  z-index: 1 !important;
+}
+
+/* Ensure sticky header has the teal background */
+.names-table .rt-thead .rt-th-sticky-left {
+  background-color: #009688 !important;
+  z-index: 2 !important;
+}
+
+/* For body cells in sticky column */
+.names-table .rt-tbody .rt-td-sticky-left {
+  background-color: #ffffff !important;
+  z-index: 1 !important;
+}
+
+/* Add a border to show the sticky column edge */
+.names-table .rt-td-sticky-left::after,
+.names-table .rt-th-sticky-left::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #000000;
 }
 
 /* ===================================
@@ -607,7 +600,7 @@ table {
   
   /* Row container small - keep horizontal on mobile */
   .row-container-small {
-    flex-direction: row !important; /* Keep horizontal on mobile */
+    flex-direction: row !important;
     gap: 5px !important;
     max-height: none !important;
     margin-bottom: 0px !important;
@@ -636,7 +629,7 @@ table {
   
   /* Row container small team - keep horizontal on mobile */
   .row-container-small-team {
-    flex-direction: row !important; /* Keep horizontal on mobile */
+    flex-direction: row !important;
     gap: 5px !important;
     max-height: none !important;
     margin-bottom: 0px !important;
@@ -691,7 +684,7 @@ table {
     margin-top: 0px !important;
   }
   
-  /* H2 headers inside table containers - more specific rule */
+  /* H2 headers inside table containers */
   .table-container h2 {
     font-size: 1.8em !important;
     margin-top: 0px !important;
@@ -712,7 +705,7 @@ table {
     margin-bottom: 0px !important;
   }
   
-  /* Target R Markdown section divs (standalone headers outside containers) */
+  /* Target R Markdown section divs */
   .section.level2 {
     margin-top: 0px !important;
     margin-bottom: 5px !important;
@@ -732,7 +725,7 @@ table {
     margin-top: 0px !important;
   }
   
-  /* H2 headers OUTSIDE containers (standalone section headers) */
+  /* H2 headers OUTSIDE containers */
   .main-container > h2 {
     font-size: 1.8em !important;
     margin-top: 0px !important;
@@ -810,9 +803,11 @@ table {
     font-size: 12px !important;
   }
   
-  /* Names table - ONLY first column (namePlayer) gets fixed width of 100px on mobile */
+  /* Names table - first column (namePlayer) gets 100px on mobile - Force override inline styles */
   .names-table .rt-th:first-child,
-  .names-table .rt-td:first-child {
+  .names-table .rt-td:first-child,
+  .names-table .rt-th:first-child[style],
+  .names-table .rt-td:first-child[style] {
     width: 100px !important;
     min-width: 100px !important;
     max-width: 100px !important;
@@ -821,23 +816,39 @@ table {
     white-space: nowrap !important;
   }
   
-  /* Sticky columns need explicit width on mobile */
-  .names-table .rt-td-sticky-left,
-  .names-table .rt-th-sticky-left,
-  .names-table .rt-td-sticky,
-  .names-table .rt-th-sticky {
+  /* Names table - second column gets 70px on mobile */
+  .names-table .rt-th:nth-child(2),
+  .names-table .rt-td:nth-child(2),
+  .names-table .rt-th:nth-child(2)[style],
+  .names-table .rt-td:nth-child(2)[style] {
+    width: 70px !important;
+    min-width: 70px !important;
+    max-width: 70px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+  
+  /* First sticky column on mobile */
+  .names-table .rt-td-sticky-left:first-child,
+  .names-table .rt-th-sticky-left:first-child,
+  .names-table .rt-td-sticky-left:first-child[style],
+  .names-table .rt-th-sticky-left:first-child[style] {
     width: 100px !important;
     min-width: 100px !important;
     max-width: 100px !important;
+    left: 0px !important;
   }
   
-  /* Ensure sticky column inner content also respects width on mobile */
-  .names-table .rt-td-sticky-left .rt-td-inner,
-  .names-table .rt-th-sticky-left .rt-th-inner,
-  .names-table .rt-td-sticky .rt-td-inner,
-  .names-table .rt-th-sticky .rt-th-inner {
-    width: 100px !important;
-    max-width: 100px !important;
+  /* Second sticky column on mobile */
+  .names-table .rt-td-sticky-left:nth-child(2),
+  .names-table .rt-th-sticky-left:nth-child(2),
+  .names-table .rt-td-sticky-left:nth-child(2)[style],
+  .names-table .rt-th-sticky-left:nth-child(2)[style] {
+    width: 70px !important;
+    min-width: 70px !important;
+    max-width: 70px !important;
+    left: 100px !important;
   }
   
   /* Allow links inside first column to also truncate */
@@ -849,8 +860,8 @@ table {
   }
   
   /* Other columns in names-table remain at their default widths */
-  .names-table .rt-th:not(:first-child),
-  .names-table .rt-td:not(:first-child) {
+  .names-table .rt-th:not(:first-child):not(:nth-child(2)),
+  .names-table .rt-td:not(:first-child):not(:nth-child(2)) {
     max-width: none !important;
   }
   
@@ -916,7 +927,7 @@ table {
   
   .player-search-input {
     width: 100% !important;
-    font-size: 16px !important; /* Prevents iOS zoom */
+    font-size: 16px !important;
     padding: 10px 40px 10px 12px !important;
   }
   
@@ -927,7 +938,7 @@ table {
   }
   
   .season-selector select {
-    font-size: 16px !important; /* Prevents iOS zoom */
+    font-size: 16px !important;
     padding: 10px !important;
     width: 100% !important;
     max-width: 200px;
