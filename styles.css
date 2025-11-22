@@ -803,53 +803,8 @@ table {
     font-size: 12px !important;
   }
   
-  /* Names table - first column (namePlayer) gets 100px on mobile - Force override inline styles */
-  .names-table .rt-th:first-child,
-  .names-table .rt-td:first-child,
-  .names-table .rt-th:first-child[style],
-  .names-table .rt-td:first-child[style] {
-    width: 100px !important;
-    min-width: 100px !important;
-    max-width: 100px !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
-  }
-  
-  /* Names table - second column gets 70px on mobile */
-  .names-table .rt-th:nth-child(2),
-  .names-table .rt-td:nth-child(2),
-  .names-table .rt-th:nth-child(2)[style],
-  .names-table .rt-td:nth-child(2)[style] {
-    width: 70px !important;
-    min-width: 70px !important;
-    max-width: 70px !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
-  }
-  
-  /* First sticky column on mobile */
-  .names-table .rt-td-sticky-left:first-child,
-  .names-table .rt-th-sticky-left:first-child,
-  .names-table .rt-td-sticky-left:first-child[style],
-  .names-table .rt-th-sticky-left:first-child[style] {
-    width: 100px !important;
-    min-width: 100px !important;
-    max-width: 100px !important;
-    left: 0px !important;
-  }
-  
-  /* Second sticky column on mobile */
-  .names-table .rt-td-sticky-left:nth-child(2),
-  .names-table .rt-th-sticky-left:nth-child(2),
-  .names-table .rt-td-sticky-left:nth-child(2)[style],
-  .names-table .rt-th-sticky-left:nth-child(2)[style] {
-    width: 70px !important;
-    min-width: 70px !important;
-    max-width: 70px !important;
-    left: 100px !important;
-  }
+  /* Mobile uses same widths as desktop from R code */
+  /* No width overrides - let reactable handle it */
   
   /* Allow links inside first column to also truncate */
   .names-table .rt-td:first-child a {
