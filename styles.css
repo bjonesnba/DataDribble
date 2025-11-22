@@ -364,25 +364,7 @@ h2 {
   display: block;
 }
 
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .navbar-search-form {
-    float: none;
-    margin: 8px 0;
-  }
-  
-  .navbar-search-input {
-    width: 100%;
-  }
-  
-  .navbar-search-input:focus {
-    width: 100%;
-  }
-}
-
 /* Season Selector */
-/* Season selector styling */
 .season-selector {
   margin: -10px 0 25px 0;
 }
@@ -518,11 +500,22 @@ h2 {
   max-width: 200px !important;
 }
 
-/* Sticky columns need explicit width on desktop */
+/* Apply to ALL sticky elements */
 .names-table .rt-td-sticky-left,
-.names-table .rt-th-sticky-left {
+.names-table .rt-th-sticky-left,
+.names-table .rt-td-sticky,
+.names-table .rt-th-sticky {
   width: 200px !important;
   min-width: 200px !important;
+  max-width: 200px !important;
+}
+
+/* Ensure sticky column inner content also respects width */
+.names-table .rt-td-sticky-left .rt-td-inner,
+.names-table .rt-th-sticky-left .rt-th-inner,
+.names-table .rt-td-sticky .rt-td-inner,
+.names-table .rt-th-sticky .rt-th-inner {
+  width: 200px !important;
   max-width: 200px !important;
 }
 
@@ -535,7 +528,6 @@ h2 {
 
 /* ===================================
    MOBILE RESPONSIVE STYLES
-   Add this to the END of your styles.css
    =================================== */
 
 /* Base responsive settings */
@@ -818,9 +810,20 @@ table {
   
   /* Sticky columns need explicit width on mobile */
   .names-table .rt-td-sticky-left,
-  .names-table .rt-th-sticky-left {
+  .names-table .rt-th-sticky-left,
+  .names-table .rt-td-sticky,
+  .names-table .rt-th-sticky {
     width: 100px !important;
     min-width: 100px !important;
+    max-width: 100px !important;
+  }
+  
+  /* Ensure sticky column inner content also respects width on mobile */
+  .names-table .rt-td-sticky-left .rt-td-inner,
+  .names-table .rt-th-sticky-left .rt-th-inner,
+  .names-table .rt-td-sticky .rt-td-inner,
+  .names-table .rt-th-sticky .rt-th-inner {
+    width: 100px !important;
     max-width: 100px !important;
   }
   
@@ -874,6 +877,7 @@ table {
   .navbar-search-form {
     margin: 8px 10px !important;
     width: calc(100% - 20px) !important;
+    float: none !important;
   }
   
   .navbar-search-input {
@@ -1029,7 +1033,4 @@ table {
 }
 
 /* ===== DESKTOP - NO CHANGES ===== */
-@media screen and (min-width: 769px) {
-  /* Desktop keeps all original styles */
-  /* This ensures computer experience doesn't change */
-}
+@media screen and (min
