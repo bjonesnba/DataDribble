@@ -488,133 +488,6 @@ h2 {
   display: inline-block;
 }
 
-/* ===================================
-   DESKTOP STYLES FOR names-table
-   =================================== */
-
-/* Desktop: First column (namePlayer) - 200px - FORCE IT */
-.names-table .rt-th:first-child,
-.names-table .rt-td:first-child {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-  flex: 0 0 200px !important;
-}
-
-/* Desktop: Second column - 70px */
-.names-table .rt-th:nth-child(2),
-.names-table .rt-td:nth-child(2) {
-  width: 70px !important;
-  min-width: 70px !important;
-  max-width: 70px !important;
-  flex: 0 0 70px !important;
-}
-
-/* Apply to first sticky column (left position 0) - VERY SPECIFIC */
-.names-table .rt-td-sticky-left:first-child,
-.names-table .rt-th-sticky-left:first-child,
-.names-table .rt-td-sticky:first-child,
-.names-table .rt-th-sticky:first-child,
-.names-table .rt-tbody .rt-td-sticky-left:first-child,
-.names-table .rt-thead .rt-th-sticky-left:first-child {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-  flex: 0 0 200px !important;
-  left: 0px !important;
-}
-
-/* Apply to second sticky column (left position 200px) */
-.names-table .rt-td-sticky-left:nth-child(2),
-.names-table .rt-th-sticky-left:nth-child(2),
-.names-table .rt-td-sticky:nth-child(2),
-.names-table .rt-th-sticky:nth-child(2),
-.names-table .rt-tbody .rt-td-sticky-left:nth-child(2),
-.names-table .rt-thead .rt-th-sticky-left:nth-child(2) {
-  width: 70px !important;
-  min-width: 70px !important;
-  max-width: 70px !important;
-  flex: 0 0 70px !important;
-  left: 200px !important;
-}
-
-/* Override any inline styles on sticky elements */
-.names-table [class*="sticky"]:first-child[style] {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-}
-
-.names-table [class*="sticky"]:nth-child(2)[style] {
-  width: 70px !important;
-  min-width: 70px !important;
-  max-width: 70px !important;
-}
-
-/* Force sticky positioning for both columns */
-.names-table [style*="position: sticky"]:first-child,
-.names-table [style*="position:sticky"]:first-child {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
-}
-
-.names-table [style*="position: sticky"]:nth-child(2),
-.names-table [style*="position:sticky"]:nth-child(2) {
-  width: 70px !important;
-  min-width: 70px !important;
-  max-width: 70px !important;
-}
-
-/* Inner content for first sticky column */
-.names-table .rt-td-sticky-left:first-child .rt-td-inner,
-.names-table .rt-th-sticky-left:first-child .rt-th-inner,
-.names-table .rt-td-sticky:first-child .rt-td-inner,
-.names-table .rt-th-sticky:first-child .rt-th-inner {
-  width: 200px !important;
-  max-width: 200px !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  white-space: nowrap !important;
-}
-
-/* Inner content for second sticky column */
-.names-table .rt-td-sticky-left:nth-child(2) .rt-td-inner,
-.names-table .rt-th-sticky-left:nth-child(2) .rt-th-inner,
-.names-table .rt-td-sticky:nth-child(2) .rt-td-inner,
-.names-table .rt-th-sticky:nth-child(2) .rt-th-inner {
-  width: 70px !important;
-  max-width: 70px !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  white-space: nowrap !important;
-}
-
-/* Fix column group alignment for sticky columns */
-.names-table .rt-thead-group .rt-th-group:first-child {
-  width: 270px !important;  /* 200px + 70px */
-  min-width: 270px !important;
-  max-width: 270px !important;
-  flex: 0 0 270px !important;
-}
-
-/* Ensure column groups display properly */
-.names-table .rt-thead-group .rt-tr {
-  display: flex;
-}
-
-/* Make sure borders align */
-.names-table .rt-th-group {
-  border-right: 1px solid #000000;
-}
-
-/* Ensure names-table sticky columns have same font size as other columns on desktop */
-.names-table .rt-td-sticky,
-.names-table .rt-th-sticky,
-.names-table .rt-td-sticky a {
-  font-size: 15px !important;
-}
-
 .desktop-only { display: block !important; }
 .mobile-only { display: none !important; }
 
@@ -663,9 +536,16 @@ table {
   }
   
   /* Header title */
-  #header h1.title {
-    font-size: 16px !important;
-    padding: 10px !important;
+  #header {
+    margin-top: 60px !important; /* Space for fixed navbar on mobile */
+    padding: 20px 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+#header h1.title {
+    font-size: 14px !important;
+    padding: 0 !important;
+    line-height: 1.3;
   }
   
   /* ===== 2. STACK ALL ROWS VERTICALLY ===== */
@@ -886,104 +766,6 @@ table {
   .reactable .rt-tr-group,
   .reactable .rt-td-inner div,
   .reactable .rt-th-inner div {
-    font-size: 12px !important;
-  }
-  
-  /* Names table - first column (namePlayer) gets 100px on mobile */
-  .names-table .rt-th:first-child,
-  .names-table .rt-td:first-child {
-    width: 100px !important;
-    min-width: 100px !important;
-    max-width: 100px !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
-  }
-  
-  /* Names table - second column gets 70px on mobile */
-  .names-table .rt-th:nth-child(2),
-  .names-table .rt-td:nth-child(2) {
-    width: 70px !important;
-    min-width: 70px !important;
-    max-width: 70px !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
-  }
-  
-  /* First sticky column on mobile */
-  .names-table .rt-td-sticky-left:first-child,
-  .names-table .rt-th-sticky-left:first-child,
-  .names-table .rt-td-sticky:first-child,
-  .names-table .rt-th-sticky:first-child {
-    width: 100px !important;
-    min-width: 100px !important;
-    max-width: 100px !important;
-    left: 0px !important;
-  }
-  
-  /* Second sticky column on mobile */
-  .names-table .rt-td-sticky-left:nth-child(2),
-  .names-table .rt-th-sticky-left:nth-child(2),
-  .names-table .rt-td-sticky:nth-child(2),
-  .names-table .rt-th-sticky:nth-child(2) {
-    width: 70px !important;
-    min-width: 70px !important;
-    max-width: 70px !important;
-    left: 100px !important;
-  }
-  
-  /* Inner content for first sticky column on mobile */
-  .names-table .rt-td-sticky-left:first-child .rt-td-inner,
-  .names-table .rt-th-sticky-left:first-child .rt-th-inner,
-  .names-table .rt-td-sticky:first-child .rt-td-inner,
-  .names-table .rt-th-sticky:first-child .rt-th-inner {
-    width: 100px !important;
-    max-width: 100px !important;
-  }
-  
-  /* Inner content for second sticky column on mobile */
-  .names-table .rt-td-sticky-left:nth-child(2) .rt-td-inner,
-  .names-table .rt-th-sticky-left:nth-child(2) .rt-th-inner,
-  .names-table .rt-td-sticky:nth-child(2) .rt-td-inner,
-  .names-table .rt-th-sticky:nth-child(2) .rt-th-inner {
-    width: 70px !important;
-    max-width: 70px !important;
-  }
-  
-  /* Fix column group alignment for sticky columns on mobile */
-  .names-table .rt-thead-group .rt-th-group:first-child {
-    width: 170px !important;  /* 100px + 70px */
-    min-width: 170px !important;
-    max-width: 170px !important;
-    flex: 0 0 170px !important;
-  }
-  
-  /* Allow links inside first column to also truncate */
-  .names-table .rt-td:first-child a {
-    display: block !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
-  }
-  
-  /* Other columns in names-table remain at their default widths */
-  .names-table .rt-th:not(:first-child):not(:nth-child(2)),
-  .names-table .rt-td:not(:first-child):not(:nth-child(2)) {
-    max-width: none !important;
-  }
-  
-  /* Fix sticky column font size in names-table */
-  .names-table .rt-td-sticky,
-  .names-table .rt-th-sticky,
-  .names-table .rt-td-sticky a,
-  .names-table .rt-th-sticky-left {
-    font-size: 12px !important;
-  }
-
-  /* Ensure sticky column inner elements also match */
-  .names-table .rt-td-sticky .rt-td-inner,
-  .names-table .rt-th-sticky .rt-th-inner {
     font-size: 12px !important;
   }
   
