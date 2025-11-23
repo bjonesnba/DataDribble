@@ -537,7 +537,7 @@ table {
   
   /* Header title */
   #header {
-    margin-top: 0px !important; /* Space for fixed navbar on mobile */
+    margin-top: 10px !important; /* Space for fixed navbar on mobile */
     padding: 20px 10px !important;
     margin-bottom: 10px !important;
   }
