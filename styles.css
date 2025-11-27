@@ -774,7 +774,7 @@ table {
   
   /* ===== NAVBAR ADJUSTMENTS ===== */
   .navbar {
-    position: fixed !important;
+    position: relative !important;
   }
   
   .navbar .container {
