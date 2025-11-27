@@ -822,14 +822,14 @@ table {
   
   /* Position search suggestions below navbar */
   .search-suggestions {
-    position: fixed !important;
-    top: 55px !important; /* Adjust based on your actual navbar height */
-    left: 10px !important;
-    right: 10px !important;
-    z-index: 10000 !important;
-    max-height: 300px !important;
-    overflow-y: auto !important;
-  }
+  position: absolute !important;
+  top: 100% !important; /* Position directly below the search input */
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 10000 !important;
+  max-height: 300px !important;
+  overflow-y: auto !important;
+}
   
   /* ===== PLAYER SEARCH ===== */
   .player-search-container {
