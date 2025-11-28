@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Player Tables - Most Improved</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-18.2.0/react.min.js"></script>
+<script src="site_libs/react-18.2.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet" />
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
+<script src="navbar_search.js"></script>
+<script>
+  // Inject search bar and Support link into navbar after page loads
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add Support link to navbar menu
+    const navbarNav = document.querySelector('.navbar-nav');
+    if (navbarNav) {
+      const supportLink = document.createElement('li');
+      supportLink.className = 'nav-item';
+      supportLink.innerHTML = `
+        <a class="nav-link" href="https://buymeacoffee.com/datadribble" target="_blank">Support</a>
+      `;
+      navbarNav.appendChild(supportLink);
+    }
+    
+    // Add search bar
+    const navbar = document.querySelector('.navbar-nav');
+    if (navbar) {
+      const searchForm = document.createElement('div');
+      searchForm.className = 'navbar-search-form';
+      searchForm.innerHTML = `
+        <form id="navbarSearchForm">
+          <div style="position: relative;">
+            <input 
+              type="text" 
+              id="navbarSearchInput" 
+              class="navbar-search-input" 
+              placeholder="Search players or teams..."
+              autocomplete="off"
+            />
+            <button type="submit" class="navbar-search-button">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+            <div id="searchSuggestions" class="search-suggestions"></div>
+          </div>
+        </form>
+      `;
+      
+      // Insert search bar at the end of navbar
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      if (navbarCollapse) {
+        navbarCollapse.appendChild(searchForm);
+      }
+    }
+  });
+</script>
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">DataDribble</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index_2026.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Players
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="player_dashboard.html?season=2026&amp;player=Franz%20Wagner%20-%201630532">Player Dashboard</a>
+    </li>
+    <li>
+      <a href="player_comparison_2026.html">Player Comparison</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Player Tables</li>
+    <li>
+      <a href="player_box_table_2026.html">Box Score</a>
+    </li>
+    <li>
+      <a href="player_metrics_table_2026.html">Metrics</a>
+    </li>
+    <li>
+      <a href="player_off_table_2026.html">Offense</a>
+    </li>
+    <li>
+      <a href="player_def_table_2026.html">Defense</a>
+    </li>
+    <li>
+      <a href="player_rookie_table_2026.html">Rookies</a>
+    </li>
+    <li>
+      <a href="player_improvement_table_2026.html">Most Improved</a>
+    </li>
+    <li>
+      <a href="player_6_man_table_2026.html">6th Man</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Teams
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="team_dashboard.html?season=2026&amp;team=Denver%20Nuggets">Team Dashboard</a>
+    </li>
+    <li>
+      <a href="team_comparison_2026.html">Team Comparison</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Team Tables</li>
+    <li>
+      <a href="team_ff_table_2026.html">Four Factors</a>
+    </li>
+    <li>
+      <a href="team_metrics_table_2026.html">Metrics</a>
+    </li>
+    <li>
+      <a href="team_shooting_table_2026.html">Shooting</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="glossary.html">Glossary</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Player Tables - Most Improved</h1>
+
+</div>
+
+
+<style>
+/* Table container */
+.table-container {
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Remove table borders */
+.reactable {
+  border: none !important;
+  height: auto !important;
+}
+
+.reactable table {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+</style>
+<div class="season-selector">
+<p><label for="seasonSelect">Season:</label>
+<select id="seasonSelect" onchange="window.location.href='player_improvement_table_' + this.value + '.html'">
+<option value="2026" >2026</option> <option value="2025" >2025</option>
+<option value="2024" >2024</option> <option value="2023" >2023</option>
+<option value="2022" >2022</option> <option value="2021" >2021</option>
+<option value="2020" >2020</option> <option value="2019" >2019</option>
+<option value="2018" >2018</option>
+<option value="2017" selected>2017</option> </select></p>
+</div>
+<div class="table-container">
+<div class="reactable html-widget html-fill-item" id="htmlwidget-a259333c7fb9e338adf4" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a259333c7fb9e338adf4">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"namePlayer":[],"playerNameID":[],"SEASON":[],"slugTeam":[],"G":[],"MIN_PER_G":[],"MIN":[],"O_EPI":[],"D_EPI":[],"EPI":[],"PTS_PER_G":[],"TREB_PER_G":[],"AST_PER_G":[],"TOV_PER_G":[],"STL_PER_G":[],"BLK_PER_G":[],"FG_PCT":[],"FG3_PCT":[],"O_EPI_PREV":[],"D_EPI_PREV":[],"EPI_PREV":[],"PTS_PER_G_PREV":[],"TREB_PER_G_PREV":[],"AST_PER_G_PREV":[],"TOV_PER_G_PREV":[],"STL_PER_G_PREV":[],"BLK_PER_G_PREV":[],"FG_PCT_PREV":[],"FG3_PCT_PREV":[],"O_EPI_Z_PCTILE":[],"D_EPI_Z_PCTILE":[],"EPI_Z_PCTILE":[],"PTS_PER_G_Z_PCTILE":[],"TREB_PER_G_Z_PCTILE":[],"AST_PER_G_Z_PCTILE":[],"TOV_PER_G_Z_PCTILE":[],"STL_PER_G_Z_PCTILE":[],"BLK_PER_G_Z_PCTILE":[],"FG_PCT_Z_PCTILE":[],"FG3_PCT_Z_PCTILE":[],"O_EPI_Z_PCTILE_PREV":[],"D_EPI_Z_PCTILE_PREV":[],"EPI_Z_PCTILE_PREV":[],"PTS_PER_G_Z_PCTILE_PREV":[],"TREB_PER_G_Z_PCTILE_PREV":[],"AST_PER_G_Z_PCTILE_PREV":[],"TOV_PER_G_Z_PCTILE_PREV":[],"STL_PER_G_Z_PCTILE_PREV":[],"BLK_PER_G_Z_PCTILE_PREV":[],"FG_PCT_Z_PCTILE_PREV":[],"FG3_PCT_Z_PCTILE_PREV":[],"O_EPI_JUMP":[],"D_EPI_JUMP":[],"EPI_JUMP":[],"PTS_PER_G_JUMP":[],"TREB_PER_G_JUMP":[],"AST_PER_G_JUMP":[],"TOV_PER_G_JUMP":[],"STL_PER_G_JUMP":[],"BLK_PER_G_JUMP":[],"FG_PCT_JUMP":[],"FG3_PCT_JUMP":[],"O_EPI_JUMP_Z_PCTILE":[],"D_EPI_JUMP_Z_PCTILE":[],"EPI_JUMP_Z_PCTILE":[],"PTS_PER_G_JUMP_Z_PCTILE":[],"TREB_PER_G_JUMP_Z_PCTILE":[],"AST_PER_G_JUMP_Z_PCTILE":[],"TOV_PER_G_JUMP_Z_PCTILE":[],"STL_PER_G_JUMP_Z_PCTILE":[],"BLK_PER_G_JUMP_Z_PCTILE":[],"FG_PCT_JUMP_Z_PCTILE":[],"FG3_PCT_JUMP_Z_PCTILE":[]},"columns":[{"id":"namePlayer","name":"Player","type":"character","html":true,"minWidth":200,"cell":[],"align":"left","vAlign":"center","sticky":"left"},{"id":"playerNameID","name":"playerNameID","type":"character","html":true,"minWidth":70,"show":false},{"id":"SEASON","name":"Season","type":"numeric","html":true,"minWidth":75,"align":"center","vAlign":"center"},{"id":"slugTeam","name":"Team","type":"character","html":true,"minWidth":70,"align":"center","vAlign":"center"},{"id":"G","name":"G","type":"numeric","html":true,"minWidth":70,"align":"center","vAlign":"center"},{"id":"MIN_PER_G","name":"MIN","type":"numeric","html":true,"minWidth":70,"format":{"cell":{"digits":1},"aggregated":{"digits":1}},"align":"center","vAlign":"center"},{"id":"MIN","name":"MIN","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI","name":"OFF","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"D_EPI","name":"DEF","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"EPI","name":"Change","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"PTS_PER_G","name":"PTS","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"TREB_PER_G","name":"REB","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"AST_PER_G","name":"AST","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"TOV_PER_G","name":"TOV","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"STL_PER_G","name":"STL","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"BLK_PER_G","name":"BLK","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"FG_PCT","name":"FG%","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"FG3_PCT","name":"3P%","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"O_EPI_PREV","name":"O_EPI_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_PREV","name":"D_EPI_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_PREV","name":"EPI_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_PREV","name":"PTS_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_PREV","name":"TREB_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_PREV","name":"AST_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_PREV","name":"TOV_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_PREV","name":"STL_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_PREV","name":"BLK_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_PREV","name":"FG_PCT_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_PREV","name":"FG3_PCT_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI_Z_PCTILE","name":"O_EPI_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_Z_PCTILE","name":"D_EPI_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_Z_PCTILE","name":"EPI_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_Z_PCTILE","name":"PTS_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_Z_PCTILE","name":"TREB_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_Z_PCTILE","name":"AST_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_Z_PCTILE","name":"TOV_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_Z_PCTILE","name":"STL_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_Z_PCTILE","name":"BLK_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_Z_PCTILE","name":"FG_PCT_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_Z_PCTILE","name":"FG3_PCT_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI_Z_PCTILE_PREV","name":"O_EPI_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_Z_PCTILE_PREV","name":"D_EPI_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_Z_PCTILE_PREV","name":"EPI_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_Z_PCTILE_PREV","name":"PTS_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_Z_PCTILE_PREV","name":"TREB_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_Z_PCTILE_PREV","name":"AST_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_Z_PCTILE_PREV","name":"TOV_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_Z_PCTILE_PREV","name":"STL_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_Z_PCTILE_PREV","name":"BLK_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_Z_PCTILE_PREV","name":"FG_PCT_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_Z_PCTILE_PREV","name":"FG3_PCT_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"D_EPI_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"EPI_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"PTS_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"TREB_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"AST_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"TOV_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"STL_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"BLK_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"FG_PCT_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"FG3_PCT_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"O_EPI_JUMP_Z_PCTILE","name":"O_EPI_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_JUMP_Z_PCTILE","name":"D_EPI_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_JUMP_Z_PCTILE","name":"EPI_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_JUMP_Z_PCTILE","name":"PTS_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_JUMP_Z_PCTILE","name":"TREB_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_JUMP_Z_PCTILE","name":"AST_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_JUMP_Z_PCTILE","name":"TOV_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_JUMP_Z_PCTILE","name":"STL_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_JUMP_Z_PCTILE","name":"BLK_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_JUMP_Z_PCTILE","name":"FG_PCT_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_JUMP_Z_PCTILE","name":"FG3_PCT_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false}],"columnGroups":[{"name":"","columns":["namePlayer"]},{"name":"","columns":["slugTeam","SEASON","G"]},{"name":"EPI","columns":["EPI","EPI_JUMP"]},{"name":"Offensive EPI","columns":["O_EPI","O_EPI_JUMP"]},{"name":"Defensive EPI","columns":["D_EPI","D_EPI_JUMP"]},{"name":"Points","columns":["PTS_PER_G","PTS_PER_G_JUMP"]},{"name":"Rebounds","columns":["TREB_PER_G","TREB_PER_G_JUMP"]},{"name":"Assists","columns":["AST_PER_G","AST_PER_G_JUMP"]},{"name":"Turnovers","columns":["TOV_PER_G","TOV_PER_G_JUMP"]},{"name":"Steals","columns":["STL_PER_G","STL_PER_G_JUMP"]},{"name":"Blocks","columns":["BLK_PER_G","BLK_PER_G_JUMP"]},{"name":"FG%","columns":["FG_PCT","FG_PCT_JUMP"]},{"name":"3P%","columns":["FG3_PCT","FG3_PCT_JUMP"]}],"searchable":true,"defaultSortDesc":true,"defaultSorted":[{"id":"PTS_PER_G_JUMP","desc":true}],"pagination":false,"highlight":true,"outlined":true,"bordered":true,"compact":true,"className":"desktop-only","style":{"maxHeight":"800px","overflowY":"auto"},"theme":{"color":"#222222","backgroundColor":"#ffffff","borderColor":"#000000","borderWidth":"1px","cellPadding":5,"style":{"fontFamily":"'Roboto', sans-serif","fontSize":"15px"},"tableStyle":{"border":"1px solid #000000"},"headerStyle":{"backgroundColor":"#009688","color":"#ffffff","fontWeight":"bold","textTransform":"none","borderBottom":"2px solid #000000"},"groupHeaderStyle":{"backgroundColor":"#009688","color":"#ffffff","fontWeight":"bold","textAlign":"center"},"cellStyle":{"height":"55px","overflow":"hidden","whiteSpace":"nowrap"},"searchInputStyle":{"width":"100%"}},"dataKey":"bcfa4baee8f840db9dadc8c7a3b32710"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-a18c40b53da16a1de5a5" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a18c40b53da16a1de5a5">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"namePlayer":[],"playerNameID":[],"SEASON":[],"slugTeam":[],"G":[],"MIN_PER_G":[],"MIN":[],"O_EPI":[],"D_EPI":[],"EPI":[],"PTS_PER_G":[],"TREB_PER_G":[],"AST_PER_G":[],"TOV_PER_G":[],"STL_PER_G":[],"BLK_PER_G":[],"FG_PCT":[],"FG3_PCT":[],"O_EPI_PREV":[],"D_EPI_PREV":[],"EPI_PREV":[],"PTS_PER_G_PREV":[],"TREB_PER_G_PREV":[],"AST_PER_G_PREV":[],"TOV_PER_G_PREV":[],"STL_PER_G_PREV":[],"BLK_PER_G_PREV":[],"FG_PCT_PREV":[],"FG3_PCT_PREV":[],"O_EPI_Z_PCTILE":[],"D_EPI_Z_PCTILE":[],"EPI_Z_PCTILE":[],"PTS_PER_G_Z_PCTILE":[],"TREB_PER_G_Z_PCTILE":[],"AST_PER_G_Z_PCTILE":[],"TOV_PER_G_Z_PCTILE":[],"STL_PER_G_Z_PCTILE":[],"BLK_PER_G_Z_PCTILE":[],"FG_PCT_Z_PCTILE":[],"FG3_PCT_Z_PCTILE":[],"O_EPI_Z_PCTILE_PREV":[],"D_EPI_Z_PCTILE_PREV":[],"EPI_Z_PCTILE_PREV":[],"PTS_PER_G_Z_PCTILE_PREV":[],"TREB_PER_G_Z_PCTILE_PREV":[],"AST_PER_G_Z_PCTILE_PREV":[],"TOV_PER_G_Z_PCTILE_PREV":[],"STL_PER_G_Z_PCTILE_PREV":[],"BLK_PER_G_Z_PCTILE_PREV":[],"FG_PCT_Z_PCTILE_PREV":[],"FG3_PCT_Z_PCTILE_PREV":[],"O_EPI_JUMP":[],"D_EPI_JUMP":[],"EPI_JUMP":[],"PTS_PER_G_JUMP":[],"TREB_PER_G_JUMP":[],"AST_PER_G_JUMP":[],"TOV_PER_G_JUMP":[],"STL_PER_G_JUMP":[],"BLK_PER_G_JUMP":[],"FG_PCT_JUMP":[],"FG3_PCT_JUMP":[],"O_EPI_JUMP_Z_PCTILE":[],"D_EPI_JUMP_Z_PCTILE":[],"EPI_JUMP_Z_PCTILE":[],"PTS_PER_G_JUMP_Z_PCTILE":[],"TREB_PER_G_JUMP_Z_PCTILE":[],"AST_PER_G_JUMP_Z_PCTILE":[],"TOV_PER_G_JUMP_Z_PCTILE":[],"STL_PER_G_JUMP_Z_PCTILE":[],"BLK_PER_G_JUMP_Z_PCTILE":[],"FG_PCT_JUMP_Z_PCTILE":[],"FG3_PCT_JUMP_Z_PCTILE":[]},"columns":[{"id":"namePlayer","name":"Player","type":"character","html":true,"minWidth":100,"cell":[],"align":"left","vAlign":"center","sticky":"left"},{"id":"playerNameID","name":"playerNameID","type":"character","html":true,"minWidth":70,"show":false},{"id":"SEASON","name":"Season","type":"numeric","html":true,"minWidth":75,"align":"center","vAlign":"center"},{"id":"slugTeam","name":"Team","type":"character","html":true,"minWidth":70,"align":"center","vAlign":"center"},{"id":"G","name":"G","type":"numeric","html":true,"minWidth":70,"align":"center","vAlign":"center"},{"id":"MIN_PER_G","name":"MIN","type":"numeric","html":true,"minWidth":70,"format":{"cell":{"digits":1},"aggregated":{"digits":1}},"align":"center","vAlign":"center"},{"id":"MIN","name":"MIN","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI","name":"OFF","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"D_EPI","name":"DEF","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"EPI","name":"Change","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"PTS_PER_G","name":"PTS","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"TREB_PER_G","name":"REB","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"AST_PER_G","name":"AST","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"TOV_PER_G","name":"TOV","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"STL_PER_G","name":"STL","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"BLK_PER_G","name":"BLK","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"FG_PCT","name":"FG%","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"FG3_PCT","name":"3P%","type":"numeric","html":true,"minWidth":70,"cell":[],"width":130,"align":"center","vAlign":"center"},{"id":"O_EPI_PREV","name":"O_EPI_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_PREV","name":"D_EPI_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_PREV","name":"EPI_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_PREV","name":"PTS_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_PREV","name":"TREB_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_PREV","name":"AST_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_PREV","name":"TOV_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_PREV","name":"STL_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_PREV","name":"BLK_PER_G_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_PREV","name":"FG_PCT_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_PREV","name":"FG3_PCT_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI_Z_PCTILE","name":"O_EPI_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_Z_PCTILE","name":"D_EPI_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_Z_PCTILE","name":"EPI_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_Z_PCTILE","name":"PTS_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_Z_PCTILE","name":"TREB_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_Z_PCTILE","name":"AST_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_Z_PCTILE","name":"TOV_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_Z_PCTILE","name":"STL_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_Z_PCTILE","name":"BLK_PER_G_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_Z_PCTILE","name":"FG_PCT_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_Z_PCTILE","name":"FG3_PCT_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI_Z_PCTILE_PREV","name":"O_EPI_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_Z_PCTILE_PREV","name":"D_EPI_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_Z_PCTILE_PREV","name":"EPI_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_Z_PCTILE_PREV","name":"PTS_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_Z_PCTILE_PREV","name":"TREB_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_Z_PCTILE_PREV","name":"AST_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_Z_PCTILE_PREV","name":"TOV_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_Z_PCTILE_PREV","name":"STL_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_Z_PCTILE_PREV","name":"BLK_PER_G_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_Z_PCTILE_PREV","name":"FG_PCT_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_Z_PCTILE_PREV","name":"FG3_PCT_Z_PCTILE_PREV","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"O_EPI_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"D_EPI_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"EPI_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"PTS_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"TREB_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"AST_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"TOV_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"STL_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"BLK_PER_G_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"FG_PCT_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"FG3_PCT_JUMP","name":"Jump","type":"numeric","html":true,"minWidth":70,"cell":[],"align":"center","vAlign":"center"},{"id":"O_EPI_JUMP_Z_PCTILE","name":"O_EPI_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"D_EPI_JUMP_Z_PCTILE","name":"D_EPI_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"EPI_JUMP_Z_PCTILE","name":"EPI_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"PTS_PER_G_JUMP_Z_PCTILE","name":"PTS_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TREB_PER_G_JUMP_Z_PCTILE","name":"TREB_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"AST_PER_G_JUMP_Z_PCTILE","name":"AST_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"TOV_PER_G_JUMP_Z_PCTILE","name":"TOV_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"STL_PER_G_JUMP_Z_PCTILE","name":"STL_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"BLK_PER_G_JUMP_Z_PCTILE","name":"BLK_PER_G_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG_PCT_JUMP_Z_PCTILE","name":"FG_PCT_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false},{"id":"FG3_PCT_JUMP_Z_PCTILE","name":"FG3_PCT_JUMP_Z_PCTILE","type":"numeric","html":true,"minWidth":70,"show":false}],"columnGroups":[{"name":"","columns":["namePlayer"]},{"name":"","columns":["slugTeam","SEASON","G"]},{"name":"EPI","columns":["EPI","EPI_JUMP"]},{"name":"Offensive EPI","columns":["O_EPI","O_EPI_JUMP"]},{"name":"Defensive EPI","columns":["D_EPI","D_EPI_JUMP"]},{"name":"Points","columns":["PTS_PER_G","PTS_PER_G_JUMP"]},{"name":"Rebounds","columns":["TREB_PER_G","TREB_PER_G_JUMP"]},{"name":"Assists","columns":["AST_PER_G","AST_PER_G_JUMP"]},{"name":"Turnovers","columns":["TOV_PER_G","TOV_PER_G_JUMP"]},{"name":"Steals","columns":["STL_PER_G","STL_PER_G_JUMP"]},{"name":"Blocks","columns":["BLK_PER_G","BLK_PER_G_JUMP"]},{"name":"FG%","columns":["FG_PCT","FG_PCT_JUMP"]},{"name":"3P%","columns":["FG3_PCT","FG3_PCT_JUMP"]}],"searchable":true,"defaultSortDesc":true,"defaultSorted":[{"id":"EPI_JUMP","desc":true}],"pagination":false,"highlight":true,"outlined":true,"bordered":true,"compact":true,"className":"mobile-only","style":{"maxHeight":"800px","overflowY":"auto"},"theme":{"color":"#222222","backgroundColor":"#ffffff","borderColor":"#000000","borderWidth":"1px","cellPadding":5,"style":{"fontFamily":"'Roboto', sans-serif","fontSize":"15px"},"tableStyle":{"border":"1px solid #000000"},"headerStyle":{"backgroundColor":"#009688","color":"#ffffff","fontWeight":"bold","textTransform":"none","borderBottom":"2px solid #000000"},"groupHeaderStyle":{"backgroundColor":"#009688","color":"#ffffff","fontWeight":"bold","textAlign":"center"},"cellStyle":{"height":"55px","overflow":"hidden","whiteSpace":"nowrap"},"searchInputStyle":{"width":"100%"}},"dataKey":"d290b10859811b78db099094ae5bd3fd"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+
+<div class="footer">
+  <div class="footer-content" style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 90%; margin: 0 auto;">
+    <!-- Left side: 4 columns -->
+    <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+      <!-- Players Column -->
+      <div class="footer-column">
+        <p>Players</p>
+        <p><a href="index_2026.html">Leaderboards</a></p>
+        <p><a href="player_dashboard.html?season=2026&player=Franz%20Wagner%20-%201630532">Player Dashboard</a></p>
+        <p><a href="player_comparison_2026.html">Player Comparisons</a></p>
+      </div>
+      <!-- Player Tables Column -->
+      <div class="footer-column">
+        <p>Player Tables</p>
+        <p><a href="player_box_table_2026.html">Box Score</a></p>
+        <p><a href="player_metrics_table_2026.html">Metrics</a></p>
+        <p><a href="player_off_table_2026.html">Offense</a></p>
+        <p><a href="player_def_table_2026.html">Defense</a></p>
+      </div>
+      <!-- Award Tables Column -->
+      <div class="footer-column">
+        <p style="visibility: hidden;">Award Tables</p>
+        <p><a href="player_rookie_table_2026.html">Rookies</a></p>
+        <p><a href="player_improvement_table_2026.html">Most Improved</a></p>
+        <p><a href="player_6man_table_2026.html">6th Man</a></p>
+      </div>
+      <!-- Teams Column -->
+      <div class="footer-column">
+        <p>Teams</p>
+        <p><a href="team_dashboard.html?season=2026&team=Denver%20Nuggets">Team Dashboards</a></p>
+        <p><a href="team_comparison_2026.html">Team Comparisons</a></p>
+      </div>
+      <!-- Team Tables Column -->
+      <div class="footer-column">
+        <p>Team Tables</p>
+        <p><a href="team_ff_table_2026.html">Four Factors</a></p>
+        <p><a href="team_metrics_table_2026.html">Metrics</a></p>
+        <p><a href="team_shooting_table_2026.html">Shooting</a></p>
+      </div>
+      <!-- Glossary Column -->
+      <div class="footer-column">
+        <p><a href="glossary.html">Glossary</a></p>
+      </div>
+    </div>
+    <!-- Right side: Follow / Support Us -->
+    <div class="footer-column">
+      <p>Follow / Support Us</p>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <a href="https://buymeacoffee.com/datadribble" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 00-.626-.194c-1-.263-2.05-.36-3.077-.416a25.834 25.834 0 00-3.7.062c-.915.083-1.88.184-2.75.5-.318.116-.646.256-.888.501-.297.302-.393.77-.177 1.146.154.267.415.456.692.58.36.162.737.284 1.123.366 1.075.238 2.189.331 3.287.37 1.218.05 2.437.01 3.65-.118.299-.033.598-.073.896-.119.352-.054.578-.513.474-.834-.124-.383-.457-.531-.834-.473-.466.074-.96.108-1.382.146-1.177.08-2.358.082-3.536.006a22.228 22.228 0 01-1.157-.107c-.086-.01-.18-.025-.258-.036-.243-.036-.484-.08-.724-.13-.111-.027-.111-.185 0-.212h.005c.277-.06.557-.108.838-.147h.002c.131-.009.263-.032.394-.048a25.076 25.076 0 013.426-.12c.674.019 1.347.067 2.017.144l.228.031c.267.04.533.088.798.145.392.085.895.113 1.07.542.055.137.08.288.111.431l.319 1.484a.237.237 0 01-.199.284h-.003c-.037.006-.075.01-.112.015a36.704 36.704 0 01-4.743.295 37.059 37.059 0 01-4.699-.304c-.14-.017-.293-.042-.417-.06-.326-.048-.649-.108-.973-.161-.393-.065-.768-.032-1.123.161-.29.16-.527.404-.675.701-.154.316-.199.66-.267 1-.069.34-.176.707-.135 1.056.087.753.613 1.365 1.37 1.502a39.69 39.69 0 0011.343.376.483.483 0 01.535.53l-.071.697-1.018 9.907c-.041.41-.047.832-.125 1.237-.122.637-.553 1.028-1.182 1.171-.577.131-1.165.2-1.756.205-.656.004-1.31-.025-1.966-.022-.699.004-1.556-.06-2.095-.58-.475-.458-.54-1.174-.605-1.793l-.731-7.013-.322-3.094c-.037-.351-.286-.695-.678-.678-.336.015-.718.3-.678.679l.228 2.185.949 9.112c.147 1.344 1.174 2.068 2.446 2.272.742.12 1.503.144 2.257.156.966.016 1.942.053 2.892-.122 1.408-.258 2.465-1.198 2.616-2.657.34-3.332.683-6.663 1.024-9.995l.215-2.087a.484.484 0 01.39-.426c.402-.078.787-.212 1.074-.518.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233-2.416.359-4.866.54-7.308.46-1.748-.06-3.477-.254-5.207-.498-.17-.024-.353-.055-.47-.18-.22-.236-.111-.71-.054-.995.052-.26.152-.609.463-.646.484-.057 1.046.148 1.526.22.577.088 1.156.159 1.737.212 2.48.226 5.002.19 7.472-.14.45-.06.899-.13 1.345-.21.399-.072.84-.206 1.08.206.166.281.188.657.162.974a.544.544 0 01-.169.364zm-6.159 3.9c-.862.37-1.84.788-3.109.788a5.884 5.884 0 01-1.569-.217l.877 9.004c.065.78.717 1.38 1.5 1.38 0 0 1.243.065 1.658.065.447 0 1.786-.065 1.786-.065.783 0 1.434-.6 1.499-1.38l.94-9.95a3.996 3.996 0 00-1.322-.238c-.826 0-1.491.284-2.26.613z" fill="#e0f2f1"/>
+          </svg>
+          Buy Me a Coffee
+        </a>
+        <a href="https://x.com/data_dribble" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e0f2f1"/>
+          </svg>
+          @DataDribble
+        </a>
+        <a href="https://x.com/ORL_analytics" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e0f2f1"/>
+          </svg>
+          @ORL_Analytics
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

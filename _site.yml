@@ -1,0 +1,54 @@
+name: "DataDribble"
+output_dir: "."
+navbar:
+  title: "DataDribble"
+  left:
+    - text: "Home"
+      href: index_2026.html
+    - text: "Players"
+      menu:
+        - text: "Player Dashboard"
+          href: player_dashboard.html?season=2026&player=Franz%20Wagner%20-%201630532
+        - text: "Player Comparison"
+          href: player_comparison_2026.html
+        - text: "---------"
+        - text: "Player Tables"
+        - text: "Box Score"
+          href: player_box_table_2026.html
+        - text: "Metrics"
+          href: player_metrics_table_2026.html
+        - text: "Offense"
+          href: player_off_table_2026.html
+        - text: "Defense"
+          href: player_def_table_2026.html
+        - text: "Rookies"
+          href: player_rookie_table_2026.html
+        - text: "Most Improved"
+          href: player_improvement_table_2026.html
+        - text: "6th Man"
+          href: player_6_man_table_2026.html
+    - text: "Teams"
+      menu:
+        - text: "Team Dashboard"
+          href: team_dashboard.html?season=2026&team=Denver%20Nuggets
+        - text: "Team Comparison"
+          href: team_comparison_2026.html
+        - text: "---------"
+        - text: "Team Tables"
+        - text: "Four Factors"
+          href: team_ff_table_2026.html
+        - text: "Metrics"
+          href: team_metrics_table_2026.html
+        - text: "Shooting"
+          href: team_shooting_table_2026.html
+    - text: "Glossary"
+      href: glossary.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: tango
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: false
+    includes:
+      in_header: header.html
