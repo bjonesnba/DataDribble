@@ -831,8 +831,8 @@
     {
       "id": "Brandon Clarke - 1629634",
       "name": "Brandon Clarke",
-      "seasons": [2020, 2021, 2022, 2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Brandon Goodwin - 1629164",
@@ -8341,6 +8341,12 @@
       "most_recent_season": 2021
     },
     {
+      "id": "Vladislav Goldin - 1642884",
+      "name": "Vladislav Goldin",
+      "seasons": [2026],
+      "most_recent_season": 2026
+    },
+    {
       "id": "Vlatko Čančar - 1628427",
       "name": "Vlatko Čančar",
       "seasons": [2020, 2021, 2022, 2023, 2025],
@@ -8793,7 +8799,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2025-12-15 22:24:42",
-  "total_players": 1445,
+  "generated_at": "2025-12-21 09:55:37",
+  "total_players": 1446,
   "total_teams": 30
 }
