@@ -21,6 +21,8 @@ navbar:
           href: player_off_table_2026.html
         - text: "Defense"
           href: player_def_table_2026.html
+        - text: "---------"
+        - text: "Award Tracking"
         - text: "Rookies"
           href: player_rookie_table_2026.html
         - text: "Most Improved"
