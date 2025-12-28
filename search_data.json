@@ -2241,8 +2241,8 @@
     {
       "id": "Dorian Finney-Smith - 1627827",
       "name": "Dorian Finney-Smith",
-      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Doug McDermott - 203926",
@@ -4735,6 +4735,12 @@
       "most_recent_season": 2019
     },
     {
+      "id": "Kam Jones - 1642880",
+      "name": "Kam Jones",
+      "seasons": [2026],
+      "most_recent_season": 2026
+    },
+    {
       "id": "Karim Mane - 1630211",
       "name": "Karim Mane",
       "seasons": [2021],
@@ -5949,8 +5955,8 @@
     {
       "id": "Micah Potter - 1630695",
       "name": "Micah Potter",
-      "seasons": [2022, 2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2022, 2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Michael Beasley - 201563",
@@ -8799,7 +8805,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2025-12-23 13:25:00",
-  "total_players": 1446,
+  "generated_at": "2025-12-29 00:49:35",
+  "total_players": 1447,
   "total_teams": 30
 }
