@@ -6123,8 +6123,8 @@
     {
       "id": "Mo Bamba - 1628964",
       "name": "Mo Bamba",
-      "seasons": [2019, 2020, 2021, 2022, 2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Mohamed Diawara - 1642885",
@@ -6585,8 +6585,8 @@
     {
       "id": "Oscar Tshiebwe - 1631131",
       "name": "Oscar Tshiebwe",
-      "seasons": [2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Oshae Brissett - 1629052",
@@ -8805,7 +8805,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2025-12-29 00:49:35",
+  "generated_at": "2026-01-04 23:31:41",
   "total_players": 1447,
   "total_teams": 30
 }
