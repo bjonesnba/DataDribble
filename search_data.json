@@ -8103,8 +8103,8 @@
     {
       "id": "TyTy Washington Jr. - 1631102",
       "name": "TyTy Washington Jr.",
-      "seasons": [2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Tyler Bey - 1630189",
@@ -8805,7 +8805,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2026-01-17 00:20:50",
+  "generated_at": "2026-01-19 09:33:52",
   "total_players": 1447,
   "total_teams": 30
 }
