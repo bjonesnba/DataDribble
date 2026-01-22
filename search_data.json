@@ -6687,8 +6687,8 @@
     {
       "id": "Patrick Baldwin Jr. - 1631116",
       "name": "Patrick Baldwin Jr.",
-      "seasons": [2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Patrick Beverley - 201976",
@@ -8811,7 +8811,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2026-01-21 00:09:11",
+  "generated_at": "2026-01-22 10:34:00",
   "total_players": 1448,
   "total_teams": 30
 }
