@@ -2163,8 +2163,8 @@
     {
       "id": "Dillon Jones - 1641794",
       "name": "Dillon Jones",
-      "seasons": [2025],
-      "most_recent_season": 2025
+      "seasons": [2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Dion Waiters - 203079",
@@ -3081,8 +3081,8 @@
     {
       "id": "Isaiah Stevens - 1641815",
       "name": "Isaiah Stevens",
-      "seasons": [2025],
-      "most_recent_season": 2025
+      "seasons": [2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Isaiah Stewart - 1630191",
@@ -8091,8 +8091,8 @@
     {
       "id": "Ty Jerome - 1629660",
       "name": "Ty Jerome",
-      "seasons": [2020, 2021, 2022, 2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Ty Lawson - 201951",
@@ -8565,8 +8565,8 @@
     {
       "id": "Yuki Kawamura - 1642530",
       "name": "Yuki Kawamura",
-      "seasons": [2025],
-      "most_recent_season": 2025
+      "seasons": [2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Yuri Collins - 1641879",
@@ -8811,7 +8811,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2026-01-30 10:26:52",
+  "generated_at": "2026-02-02 00:11:08",
   "total_players": 1448,
   "total_teams": 30
 }
