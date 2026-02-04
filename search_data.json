@@ -7533,8 +7533,8 @@
     {
       "id": "Stanley Umude - 1630649",
       "name": "Stanley Umude",
-      "seasons": [2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Stanton Kidd - 1629742",
@@ -8038,6 +8038,12 @@
       "id": "Trey Murphy III - 1630530",
       "name": "Trey Murphy III",
       "seasons": [2022, 2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
+    },
+    {
+      "id": "Tristan Enaruna - 1642400",
+      "name": "Tristan Enaruna",
+      "seasons": [2026],
       "most_recent_season": 2026
     },
     {
@@ -8811,7 +8817,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2026-02-02 00:11:08",
-  "total_players": 1448,
+  "generated_at": "2026-02-04 18:17:18",
+  "total_players": 1449,
   "total_teams": 30
 }
