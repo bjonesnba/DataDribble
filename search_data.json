@@ -5899,6 +5899,12 @@
       "most_recent_season": 2026
     },
     {
+      "id": "Max Shulga - 1642917",
+      "name": "Max Shulga",
+      "seasons": [2026],
+      "most_recent_season": 2026
+    },
+    {
       "id": "Max Strus - 1629622",
       "name": "Max Strus",
       "seasons": [2020, 2021, 2022, 2023, 2024, 2025],
@@ -8817,7 +8823,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2026-02-04 18:17:18",
-  "total_players": 1449,
+  "generated_at": "2026-02-05 17:06:31",
+  "total_players": 1450,
   "total_teams": 30
 }
