@@ -4921,6 +4921,12 @@
       "most_recent_season": 2026
     },
     {
+      "id": "Keshon Gilbert - 1642933",
+      "name": "Keshon Gilbert",
+      "seasons": [2026],
+      "most_recent_season": 2026
+    },
+    {
       "id": "Kessler Edwards - 1630556",
       "name": "Kessler Edwards",
       "seasons": [2022, 2023, 2024, 2025],
@@ -7299,8 +7305,8 @@
     {
       "id": "Scoot Henderson - 1630703",
       "name": "Scoot Henderson",
-      "seasons": [2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Scott Machado - 203159",
@@ -7329,8 +7335,8 @@
     {
       "id": "Scotty Pippen Jr. - 1630590",
       "name": "Scotty Pippen Jr.",
-      "seasons": [2023, 2024, 2025],
-      "most_recent_season": 2025
+      "seasons": [2023, 2024, 2025, 2026],
+      "most_recent_season": 2026
     },
     {
       "id": "Sean Kilpatrick - 203930",
@@ -8823,7 +8829,7 @@
       "seasons": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     }
   ],
-  "generated_at": "2026-02-05 17:06:31",
-  "total_players": 1450,
+  "generated_at": "2026-02-08 23:26:54",
+  "total_players": 1451,
   "total_teams": 30
 }
